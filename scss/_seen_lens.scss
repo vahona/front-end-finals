@@ -1,0 +1,45 @@
+
+@import "variable";
+
+.photograph__main__link {
+  text-decoration: $text-decoration;
+  color: $gray;
+  font-family: sans-Regular;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+ 
+}
+
+.photograph__main__back {
+    margin-block-start: calc(#{$margine-block-start} * 2 );
+    margin-inline-start: $margine-inline-start ;
+}
+
+.photograph__main__seenlens--title {
+  color: $black-color;
+  font-family: dmserifdisplay-regular;
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: normal;
+  margin-inline-start: $margine-inline-start;
+}
+.photograph__main__seenlens__images--navigation {
+  max-width: 374.5px;
+}
+
+.photograph__main__seenlens--paragraph {
+  font-family:sans-Regular ;
+  margin-inline-start: $margine-inline-start;
+}
+
+.photograph__main__seenlens__images--lists {
+  @include list;
+  padding-inline-start: $padding;
+  
+}
+
+.photograph__main__seenlens__images--list {
+  margin-inline-end: 0.25rem;
+}
+

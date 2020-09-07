@@ -13,7 +13,8 @@
     <h1 class="photograph__title">
       Photograph
     </h1>
-    <svg class="photograph__scroll__bar" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="photograph__scroll__bar" width="20" height="14" viewBox="0 0 20 14" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V2H0V0ZM0 6H20V8H0V6ZM20 12H0V14H20V12Z" fill="white" />
     </svg>
     <nav class="photograph__navigation">
@@ -30,34 +31,40 @@
   <main class="photograph__main">
     <section class="photograph__main__seenlens">
       <header class="photograph__main__seenlens--header">
-        <a href="/backto" class="photograph__main__link">←Back to portfolio</a>
+        <div class="photograph__main__back">
+          <a href="/backto" class="photograph__main__link">←Back to portfolio</a>
+        </div>
         <h2 class="photograph__main__seenlens--title">
           Beauty is seen through a lens
         </h2>
         <p class="photograph__main__seenlens--paragraph">
           Perspective matters.
+        </p>
+        <p class="photograph__main__seenlens--paragraph">
           All my photographs try to capture that perspective, however subtle.
         </p>
       </header>
       <article class="photograph__main__seenlens--images">
-        <img class="photograph__main__seenlens__images--big" src="./images/rock_carvings_lg.jpg" alt="large">
+        <div class="photograph__main__seenlens--images_container">
+          <img class="photograph__main__seenlens__images--big" src="./images/rock_carvings_lg.jpg" alt="large">
+        </div>
         <nav class="photograph__main__seenlens__images--navigation">
           <ul class="photograph__main__seenlens__images--lists">
             <li class="photograph__main__seenlens__images--list rock__carving"><img
                 class="photograph__main__images--small" src="./images/rock_carvings_sm.jpg" alt="canyon"></li>
-            <li class="photograph__main__seenlens__images--list stairs"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list stairs"><img class="photograph__main__images--small image__stairs"
                 src="./images/stairs_sm.jpg" alt="stairs"></li>
-            <li class="photograph__main__seenlens__images--list ripple"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list ripple"><img class="photograph__main__images--small image__ripple"
                 src="./images/ripples_sm.jpg" alt="riple"></li>
-            <li class="photograph__main__seenlens__images--list dune"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list dune"><img class="photograph__main__images--small image__dune"
                 src="./images/dunes_sm.jpg" alt="dune"></li>
-            <li class="photograph__main__seenlens__images--list arches"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list arches"><img class="photograph__main__images--small image__arches"
                 src="./images/arches_sm.jpg" alt="arch"></li>
-            <li class="photograph__main__seenlens__images--list car"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list car"><img class="photograph__main__images--small image__car"
                 src="./images/car_sm.jpg" alt="car"></li>
-            <li class="photograph__main__seenlens__images--list sunset"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list sunset"><img class="photograph__main__images--small image__sunset"
                 src="./images/sunset_sm.jpg" alt="sunset"></li>
-            <li class="photograph__main__seenlens__images--list canyon"><img class="photograph__main__images--small"
+            <li class="photograph__main__seenlens__images--list canyon"><img class="photograph__main__images--small image__canyon"
                 src="./images/canyon_sm.jpg" alt=""></li>
           </ul>
         </nav>

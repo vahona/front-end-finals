@@ -1,0 +1,35 @@
+@import "variable";
+
+.photograph__main__seenlens__images--big {
+  max-width: 100%;
+  
+
+}
+
+.photograph__main__seenlens--images_container {
+  margin-inline-start: $margine-inline-start;
+  margin-inline-end: $margine-inline-end;
+}
+
+.photograph__main__images--small {
+  max-width: 100%;
+
+}
+
+
+
+.ripple {
+  overflow: hidden;
+  margin-inline-end: -68.5px;
+
+}
+
+
+
+.dune,
+.arches,
+.car,
+.sunset,
+.canyon {
+  display: none;
+}

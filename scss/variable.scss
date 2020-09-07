@@ -4,7 +4,9 @@ $text-transformation: uppercase;
 
 // color
 
-$color: #FFFFFF;
+$white: #FFFFFF;
+$gray: rgba(0, 0, 0, 0.5);
+$black-color: #000000;
 
 // padding
 
@@ -37,5 +39,13 @@ $margine-block-start: 1rem;
 $margine-block-end: 1rem;
 $margine-block-bottom: 1rem;
 $margine-block-top: 1rem;
+
+// Link 
+
+$text-decoration: none;
+
+// list style
+
+$list-style: none;
 
 
