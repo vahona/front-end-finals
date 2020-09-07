@@ -46,7 +46,7 @@
             <li class="photograph__main__seenlens__images--list stairs"><img class="photograph__main__images--small"
                 src="./images/stairs_sm.jpg" alt="stairs"></li>
             <li class="photograph__main__seenlens__images--list ripple"><img class="photograph__main__images--small"
-                src="./images/ripples_sm.jpg" alt=riple""></li>
+                src="./images/ripples_sm.jpg" alt="riple"></li>
             <li class="photograph__main__seenlens__images--list dune"><img class="photograph__main__images--small"
                 src="./images/dunes_sm.jpg" alt="dune"></li>
             <li class="photograph__main__seenlens__images--list arches"><img class="photograph__main__images--small"
@@ -63,7 +63,9 @@
       <article class="photograph__main__seenlens__wordsdetails">
         <nav class="photograph__main__seenlens__wordsdetails--navigation">
           <ul class="photograph__main__seenlens__wordsdetails--lists">
-            <li class="photograph__main__seenlens__wordsdetails--list"><span>Date</span>July 2009 </li>
+            <li class="photograph__main__seenlens__wordsdetails--list"><span>Date</span>
+              <p>July 2009 </p>
+            </li>
             <li class="photograph__main__seenlens__wordsdetails--list"><span>Location</span> Morrocan Highlands</li>
             <li class="photograph__main__seenlens__wordsdetails--list"><span>Camera</span> Canon EOS
               1D Mark IV</li>
@@ -71,30 +73,101 @@
           </ul>
         </nav>
       </article>
-      <article class="photograph__main">
-        <h4>
+      <article class="photograph__main__mineral">
+        <h4 class="photograph__main__mineral--header">
           Mineral carvings
         </h4>
-        <p>
+        <p class="photograph__main__mineral--placeinformation">
           Deep in the deserts of Morroco, lies a dried-up valley, featuring some of the most exquisite rock formations,
           carved
           millions of years ago.
         </p>
-        <p>
+        <p class="photograph__main__mineral--beautyinformation">
           To truly experience these beautiful formations, one has to visit them in person. I hope my photos have managed
           to
           capture the sheer size – gravitas even – and spellbinding nature of these eroded walls.
         </p>
       </article>
-      <nav>
-        <ul>
-          <li><a href="#facebook"></a>facebook</li>
-          <li><a href="#twitter"></a>twitter</li>
-          <li><a href="#histogram"></a>histogram</li>
+      <nav class="photograph__main__mineral--navigation">
+        <ul class="photograph__main__mineral--lists lists_of_links">
+          <li class="photograph__main__mineral--list"><a class="photograph__main__mineral--link facebook"
+              href="#facebook">Facebook</a></li>
+          <li class="photograph__main__mineral--list"><a class="photograph__main__mineral--link twitter"
+              href="#twitter">Twitter</a></li>
+          <li class="photograph__main__mineral--list"><a class="photograph__main__mineral--link histogram"
+              href="#histogram">Histogram</a></li>
         </ul>
       </nav>
     </section>
-
+    <section class="photograph__main__updating">
+      <article class="photograph__main__updating--latest">
+        <h5 class="photograph__main__updating--subheader">Latest</h5>
+        <h4 class="photograph__main__updating--header">Stay up-to-date
+          with my updates
+        </h4>
+        <form action="submit" class="photograph__main__updating--form">
+          <label for="subscribe"> Your Email adress </label><br>
+          <input type="email" value="e.g.jesse@gmail.com" id="subscribe"><br>
+          <button class="photograph__main__updating--button_form">Subscribe</button>
+        </form>
+      </article>
+    </section>
+    <footer class="photograph__footer">
+      <article class="photograph__footer__informations">
+        <div class="photograph__footer__informations__container--comminucation">
+          <h3 class="photograph__footer__title">Photograph</h3>
+          <p>The personal website of Jesse McJessesen, professional photographer.</p>
+          <nav class="photograph__footer__navigation__comminucation">
+            <ul class="photograph__footer__lists">
+              <li class="photograph__footer__list"><a class="photograph__footer--link facebook"
+                  href="#facebook">Facebook</a></li>
+              <li class="photograph__footer__list"><a class="photograph__footer--link twitter"
+                  href="#twitter">Twitter</a>
+              </li>
+              <li class="photograph__footer__list"><a class="photograph__footer--link histogram"
+                  href="#histogram">Histogram</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="photograph__footer__informations__container--home">
+          <nav class="photograph__footer__navigation__home">
+            <h5 class="photograph__footer__navigation__home--heading">Home</h5>
+            <ul class="photograph__footer__lists">
+              <li class="photograph__footer__lists"><a class="photograph__footer__lists__of__link footer__link__about"
+                  href="/about">about</a></li>
+              <li class="photograph__footer__lists"><a
+                  class="photograph__footer__lists__of__link footer__link__portfolio" href="/portfolio">Portfolio</a>
+              </li>
+              <li class="photograph__footer__lists"><a class="photograph__footer__lists__of__link footer__link__blog"
+                  href="/blog">Blog</a></li>
+              <li class="photograph__footer__lists"><a class="photograph__footer__lists__of__link footer__link__contact"
+                  href="/contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="photograph__footer__informations__container--person">
+          <nav class="photograph__footer__informations__navigation--person">
+            <ul class="photograph__footer__informations__lists--person">
+              <li class="photograph__footer__informations__list--person">
+                <img src="./images/woman_sm.jpg" alt="woman">
+                <p>Rust, pumpkin, tans, and spices.</p>
+                <p class="photograph__footer__informations--date">July 15, 2019</p>
+              </li>
+              <li class="photograph__footer__informations__list--person">
+                <img src="./images/passage_sm.jpg" alt="">
+                <p>Experiencing Japan</p>
+                <p class="photograph__footer__informations--date">July 10, 2019</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+      <article class="photograph__footer__informations__container--note">
+        <p>Created by Laaqiq, modified by Onja</p>
+        <p>© PHOTOGRAF, 2020. All rights reserved.</p>
+      </article>
+    </footer>
   </main>
 </body>
 
