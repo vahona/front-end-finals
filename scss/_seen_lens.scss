@@ -46,3 +46,26 @@
   margin-inline-end: 0.25rem;
 }
 
+.photograph__main__seenlens__wordsdetails--lists {
+  list-style-type: none;
+  columns: 2;
+}
+
+
+span {
+  color: $gray;
+  font-family: sans-Regular;
+  font-size: 1rem;
+  line-height: 1.5rem; 
+}
+
+.photograph__main__seenlens__wordsdetails {
+  // font-family: ;
+}
+
+.photograph__main__seenlens__wordsdetails--paragraph {
+  color: $black-color;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: dmsans-bold;
+}

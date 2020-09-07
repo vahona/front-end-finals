@@ -82,6 +82,22 @@ body {
 .photograph__main__seenlens__images--list {
   margin-inline-end: 0.25rem; }
 
+.photograph__main__seenlens__wordsdetails--lists {
+  list-style-type: none;
+  columns: 2; }
+
+span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: sans-Regular;
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+.photograph__main__seenlens__wordsdetails--paragraph {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: dmsans-bold; }
+
 .photograph__main__seenlens__images--big {
   max-width: 100%; }
 
