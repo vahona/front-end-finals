@@ -40,6 +40,9 @@
 .photograph__navigation {
   display: none; }
 
+html {
+  background-color: #F2F2F2; }
+
 body {
   padding: 0;
   margin: 0; }
@@ -52,6 +55,9 @@ body {
   font-size: 1rem;
   line-height: 1.5rem; }
 
+.photograph__main__seenlens--images {
+  overflow: hidden; }
+
 .photograph__main__back {
   margin-block-start: calc(1rem * 2);
   margin-inline-start: 1rem; }
@@ -63,9 +69,6 @@ body {
   line-height: 4rem;
   font-weight: normal;
   margin-inline-start: 1rem; }
-
-.photograph__main__seenlens__images--navigation {
-  max-width: 374.5px; }
 
 .photograph__main__seenlens--paragraph {
   font-family: sans-Regular;
@@ -90,8 +93,7 @@ body {
   max-width: 100%; }
 
 .ripple {
-  overflow: hidden;
-  margin-inline-end: -68.5px; }
+  margin-inline-end: calc(137px / -2); }
 
 .dune,
 .arches,

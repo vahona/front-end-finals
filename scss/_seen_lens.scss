@@ -11,6 +11,10 @@
  
 }
 
+.photograph__main__seenlens--images {
+  overflow: hidden;
+}
+
 .photograph__main__back {
     margin-block-start: calc(#{$margine-block-start} * 2 );
     margin-inline-start: $margine-inline-start ;
@@ -23,10 +27,9 @@
   line-height: 4rem;
   font-weight: normal;
   margin-inline-start: $margine-inline-start;
+  
 }
-.photograph__main__seenlens__images--navigation {
-  max-width: 374.5px;
-}
+
 
 .photograph__main__seenlens--paragraph {
   font-family:sans-Regular ;
