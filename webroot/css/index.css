@@ -1,17 +1,45 @@
 @font-face {
   font-family: sans-Regular;
   font-weight: 400;
-  src: url("./fonts/sans-regular.woff2") format("woff2"), url("/webroot/fonts/sans-Regular.woff") format("woff"); }
+  src: url(../fonts/sans-regular.woff2) format("woff2"), url(../fonts/sans-Regular.woff) format("woff"); }
 
 @font-face {
   font-family: dmsans-bold;
   font-weight: 700;
-  src: url("./fonts/dmsans-bold.woff2") format("woff2"), url("/webroot/fonts/dmsans-bold.woff") format("woff"); }
+  src: url(../fonts/dmsans-bold.woff2) format("woff2"), url(../fonts/dmsans-bold.woff) format("woff"); }
 
 @font-face {
   font-family: dmserifdisplay-regular;
   font-weight: 400;
-  src: url("fonts/dmserifdisplay-Regular.woff2") format("woff2"), url("/webroot/fonts/dmserifdisplay-regular.woff") format("woff"); }
+  src: url(../dmserifdisplay-Regular.woff2) format("woff2"), url(../fonts/dmserifdisplay-regular.woff) format("woff"); }
+
+.photograph {
+  background-color: #434CCC;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between; }
 
 .photograph__title {
-  font-family: dmserifdisplay-regular; }
+  margin-inline-start: 1rem; }
+
+.photograph__title {
+  font-family: dmserifdisplay-regular;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 32px;
+  color: #FFFFFF; }
+
+.photograph__scroll__bar {
+  float: right;
+  margin-inline-end: 1rem;
+  margin-block-start: calc( 1rem + 0.5rem); }
+
+.photograph__navigation {
+  display: none; }
+
+body {
+  padding: 0;
+  margin: 0; }
