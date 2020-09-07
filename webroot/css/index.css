@@ -1,0 +1,17 @@
+@font-face {
+  font-family: sans-Regular;
+  font-weight: 400;
+  src: url("./fonts/sans-regular.woff2") format("woff2"), url("/webroot/fonts/sans-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: dmsans-bold;
+  font-weight: 700;
+  src: url("./fonts/dmsans-bold.woff2") format("woff2"), url("/webroot/fonts/dmsans-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: dmserifdisplay-regular;
+  font-weight: 400;
+  src: url("fonts/dmserifdisplay-Regular.woff2") format("woff2"), url("/webroot/fonts/dmserifdisplay-regular.woff") format("woff"); }
+
+.photograph__title {
+  font-family: dmserifdisplay-regular; }
