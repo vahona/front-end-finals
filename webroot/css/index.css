@@ -93,7 +93,7 @@ body {
 
 .email-adress {
   text-transform: uppercase;
-  font-family: sans-Regular;
+  font-family: dmsans-bold;
   font-size: 12px;
   line-height: 1rem; }
 
@@ -109,7 +109,8 @@ input[value*="e.g.jesse@gmail.com"] {
   font-size: 19px;
   font-family: sans-Regular;
   font-weight: normal;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-top: 1rem; }
 
 .photograph__main__updating--latest {
   margin-inline-start: 1rem; }
@@ -127,6 +128,28 @@ input[value*="e.g.jesse@gmail.com"] {
   font-weight: normal;
   border-radius: 5px;
   margin-block-start: 1rem; }
+
+@media (min-width: 1200px) {
+  .photograph__main__updating {
+    columns: 2;
+    column-width: auto; }
+  .photograph__main__updating--header {
+    width: 382px; }
+  .photograph__main__updating--form {
+    margin-inline-start: -280px;
+    width: 805px;
+    padding-block-start: 160px;
+    padding-block-end: 144px; }
+  input[value*="e.g.jesse@gmail.com"] {
+    margin-top: 1rem; }
+  .photograph__main__updating--button_form {
+    margin-inline-start: calc(1rem * 2); }
+  .photograph__main__updating--container {
+    margin-inline-start: 135px; }
+  .photograph__main__updating--form {
+    display: flex; }
+  .photograph__main__updating--button_form {
+    margin-block-start: calc(1rem * 2); } }
 
 .photograph__main__seenlens {
   padding-block-end: calc(1rem * 3); }
@@ -205,7 +228,7 @@ span {
   margin-inline-start: 1rem; }
 
 @media (min-width: 1200px) {
-  .photograph__main {
+  .photograph__main__seenlens {
     margin-inline-start: 135px;
     margin-inline-end: 135px; }
   .photograph__main__seenlens--container {
@@ -214,7 +237,7 @@ span {
   .photograph__main__mineral--navigation {
     grid-column: 2; }
   .photograph__main__seenlens__wordsdetails {
-    margin-block-start: 3rem; } }
+    margin-block-start: calc(1rem * 3); } }
 
 .photograph__main__seenlens__images--big {
   max-width: 100%;

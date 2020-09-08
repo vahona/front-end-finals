@@ -25,7 +25,7 @@
 
 .email-adress {
   text-transform: uppercase;
-  font-family: sans-Regular;
+  font-family: dmsans-bold;
   font-size: 12px;
   line-height: 1rem;
 }
@@ -40,6 +40,7 @@ input {
 input[value*="e.g.jesse@gmail.com"] {
   color: $gray;
   @include smalfont;
+  margin-top: $margine;
 }
 
 .photograph__main__updating--latest {
@@ -55,5 +56,54 @@ input[value*="e.g.jesse@gmail.com"] {
   color: $white;
   @include smalfont;
   margin-block-start: $margine-block-start;
+  
 
+}
+
+
+@media (min-width: 1200px) {
+
+  .photograph__main__updating {
+    columns: 2;
+    column-width: auto;
+  
+  }
+
+  .photograph__main__updating--header {
+    width: 382px;
+  }
+
+  .input {
+     
+  }
+  .photograph__main__updating--form {
+    margin-inline-start: -280px;
+    width: 805px;
+    padding-block-start: 160px;
+    padding-block-end: 144px;
+  }
+
+  
+  input[value*="e.g.jesse@gmail.com"] {
+    margin-top: $margine;
+  }
+
+  .photograph__main__updating--button_form {
+    margin-inline-start: calc(#{$margine-inline-start} * 2);
+  }
+
+  .photograph__main__updating--container {
+    margin-inline-start: 135px;
+    
+
+  }
+
+  .photograph__main__updating--form {
+    display: flex;
+   
+  }
+
+  .photograph__main__updating--button_form {
+    margin-block-start: calc(#{$margine-block-start} * 2);
+  }
 }

@@ -97,7 +97,7 @@ span {
 
 @media (min-width : 1200px) {
 
-  .photograph__main {
+  .photograph__main__seenlens {
     margin-inline-start: 135px;
     margin-inline-end: 135px;
   }
@@ -114,7 +114,7 @@ span {
   }
 
   .photograph__main__seenlens__wordsdetails {
-    margin-block-start: 3rem;
+    margin-block-start: calc(#{$margine-block-start} * 3);
   }
 
 }
