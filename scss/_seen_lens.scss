@@ -1,6 +1,7 @@
 
 @import "variable";
 
+
 .photograph__main__link {
   text-decoration: $text-decoration;
   color: $gray;
@@ -71,6 +72,23 @@ span {
 }
 
 .photograph__main__mineral--header {
-  color: $black-color;
-  font-family: dmserifdisplay-regular;
+  @include font;
+}
+
+.photograph__main__mineral--placeinformation {
+   color: $black-color;
+   font-size: 18px;
+   line-height: 2rem;
+   font-family: sans-Regular;
+}
+
+.photograph__main__mineral--beautyinformation {
+  font-family: sans-Regular;
+  color: $gray;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.photograph__main__mineral {
+  margin-inline-start: $margine-inline-start;
 }

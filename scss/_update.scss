@@ -1,0 +1,59 @@
+@import "variable";
+@import "mixing";
+
+
+.photograph__main__updating {
+  background-color: $yelow;
+  padding-block-end: calc(#{$padding-block-end} * 2);
+  padding-block-start: calc(#{$padding-block-start} * 2);
+}
+
+.photograph__main__updating--subheader {
+  font-family: sans-Regular;
+  text-transform: uppercase;
+  color: $black-color;
+  letter-spacing: 0.3em;
+  font-size: 1rem;
+  line-height: 24px;
+
+}
+
+.photograph__main__updating--header {
+  @include font;
+  
+}
+
+.email-adress {
+  text-transform: uppercase;
+  font-family: sans-Regular;
+  font-size: 12px;
+  line-height: 1rem;
+}
+
+input {
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 16px;
+  padding-right: 120px;
+}
+
+input[value*="e.g.jesse@gmail.com"] {
+  color: $gray;
+  @include smalfont;
+}
+
+.photograph__main__updating--latest {
+  margin-inline-start: $margine-inline-start;
+}
+
+.photograph__main__updating--button_form {
+  background-color: $blue;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-inline-start: 45.5px;
+  padding-inline-end: 45.5px;
+  color: $white;
+  @include smalfont;
+  margin-block-start: $margine-block-start;
+
+}

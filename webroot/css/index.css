@@ -47,6 +47,63 @@ body {
   padding: 0;
   margin: 0; }
 
+.photograph__main__updating {
+  background-color: #FFDD78;
+  padding-block-end: calc(1rem * 2);
+  padding-block-start: calc(1rem * 2); }
+
+.photograph__main__updating--subheader {
+  font-family: sans-Regular;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0.3em;
+  font-size: 1rem;
+  line-height: 24px; }
+
+.photograph__main__updating--header {
+  font-weight: 35px;
+  font-size: 43px;
+  color: #000000;
+  font-weight: normal;
+  font-family: dmserifdisplay-regular; }
+
+.email-adress {
+  text-transform: uppercase;
+  font-family: sans-Regular;
+  font-size: 12px;
+  line-height: 1rem; }
+
+input {
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 16px;
+  padding-right: 120px; }
+
+input[value*="e.g.jesse@gmail.com"] {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 11px;
+  font-size: 19px;
+  font-family: sans-Regular;
+  font-weight: normal;
+  border-radius: 5px; }
+
+.photograph__main__updating--latest {
+  margin-inline-start: 1rem; }
+
+.photograph__main__updating--button_form {
+  background-color: #434CCC;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-inline-start: 45.5px;
+  padding-inline-end: 45.5px;
+  color: #FFFFFF;
+  font-weight: 11px;
+  font-size: 19px;
+  font-family: sans-Regular;
+  font-weight: normal;
+  border-radius: 5px;
+  margin-block-start: 1rem; }
+
 .photograph__main__link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
@@ -99,8 +156,26 @@ span {
   font-family: dmsans-bold; }
 
 .photograph__main__mineral--header {
+  font-weight: 35px;
+  font-size: 43px;
   color: #000000;
+  font-weight: normal;
   font-family: dmserifdisplay-regular; }
+
+.photograph__main__mineral--placeinformation {
+  color: #000000;
+  font-size: 18px;
+  line-height: 2rem;
+  font-family: sans-Regular; }
+
+.photograph__main__mineral--beautyinformation {
+  font-family: sans-Regular;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  line-height: 24px; }
+
+.photograph__main__mineral {
+  margin-inline-start: 1rem; }
 
 .photograph__main__seenlens__images--big {
   max-width: 100%; }
@@ -121,3 +196,28 @@ span {
 .sunset,
 .canyon {
   display: none; }
+
+.photograph__main__mineral--lists {
+  display: flex;
+  margin-inline-start: 1rem;
+  padding-inline-start: 0; }
+
+.photograph__main__mineral--list {
+  list-style: none;
+  display: flex; }
+
+.photograph__main__mineral--link {
+  text-decoration: none;
+  color: transparent; }
+
+.facebook {
+  background-image: url(../images/icone_facebook.svg);
+  background-repeat: no-repeat; }
+
+.twitter {
+  background-image: url(../images/icone_twitter.svg);
+  background-repeat: no-repeat; }
+
+.histogram {
+  background-image: url(../images/icone_histogram.svg);
+  background-repeat: no-repeat; }

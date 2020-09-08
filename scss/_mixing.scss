@@ -1,5 +1,30 @@
+@import "variable";
+
 @mixin list {
   list-style: none;
   display: flex;
   
+}
+
+
+@mixin link {
+  text-indent: -9999px;
+  margin: 1rem;
+
+}
+
+@mixin font {
+  font-weight: 35px;
+  font-size: 43px;
+  color: $black-color;
+  font-weight: normal;
+  font-family: dmserifdisplay-regular;
+}
+
+@mixin smalfont {
+  font-weight: 11px;
+  font-size: 19px;
+  font-family: sans-Regular;
+  font-weight: normal;
+  border-radius: 5px;
 }
