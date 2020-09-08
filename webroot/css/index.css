@@ -77,7 +77,7 @@ input {
   padding-top: 13px;
   padding-bottom: 11px;
   padding-left: 16px;
-  padding-right: 120px; }
+  padding-right: 90px; }
 
 input[value*="e.g.jesse@gmail.com"] {
   color: rgba(0, 0, 0, 0.5);
@@ -110,10 +110,10 @@ input[value*="e.g.jesse@gmail.com"] {
 .photograph__main__link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px;
   font-family: sans-Regular;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5rem; }
+  font-weight: normal; }
 
 .photograph__main__seenlens--images {
   overflow: hidden; }
@@ -148,9 +148,9 @@ input[value*="e.g.jesse@gmail.com"] {
 
 span {
   color: rgba(0, 0, 0, 0.5);
-  font-family: sans-Regular;
-  font-size: 1rem;
-  line-height: 1.5rem; }
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular; }
 
 .photograph__main__seenlens__wordsdetails--paragraph {
   color: #000000;
@@ -172,23 +172,25 @@ span {
   font-family: sans-Regular; }
 
 .photograph__main__mineral--beautyinformation {
+  font-size: 16px;
+  line-height: 24px;
   font-family: sans-Regular;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 1rem;
-  line-height: 24px; }
+  color: rgba(0, 0, 0, 0.5); }
 
 .photograph__main__mineral {
   margin-inline-start: 1rem; }
 
 .photograph__main__seenlens__images--big {
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 5px; }
 
 .photograph__main__seenlens--images_container {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem; }
 
 .photograph__main__images--small {
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 5px; }
 
 .ripple {
   margin-inline-end: calc(137px / -2); }
@@ -224,3 +226,88 @@ span {
 .histogram {
   background-image: url(../images/icone_histogram.svg);
   background-repeat: no-repeat; }
+
+.photograph__footer__informations {
+  margin-inline-start: 1rem; }
+
+.photograph__footer__title {
+  font-family: dmserifdisplay-regular;
+  font-weight: normal;
+  color: #000000;
+  font-size: 24px;
+  line-height: 2rem;
+  text-transform: uppercase; }
+
+.photograph__footer__informations--paragraph {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular; }
+
+.photograph__footer__lists--relation {
+  list-style: none;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px; }
+
+.photograph__footer--link {
+  text-decoration: none; }
+
+.photograph__footer__navigation__home--heading {
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular; }
+
+.photograph__footer__lists {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 1rem; }
+
+.photograph__footer__lists__of__link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular; }
+
+.photograph__footer__informations__lists--person {
+  list-style: none;
+  padding-inline-start: 0; }
+
+.photograph__footer__informations--paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular;
+  font-weight: normal; }
+
+.photograph__footer__informations--date {
+  font-size: 12px;
+  line-height: 24px;
+  font-family: dmsans-bold;
+  color: #000000; }
+
+.photograph__footer__informations__container--person {
+  margin-inline-start: 0; }
+
+.photograph__footer__informations__list--person {
+  margin-block-start: calc(1rem * 2); }
+
+.photograph__footer__informations__list--person {
+  display: flex; }
+
+.photograph__footer__informations--womimage,
+.photograph__footer__informations--passimage {
+  border-radius: 8px;
+  max-width: 45%;
+  margin-inline-end: calc(1rem * 2); }
+
+.photograph__footer__informations__container--note {
+  border-top: 1px solid #afaeae;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular;
+  margin-inline-start: 1rem;
+  color: rgba(0, 0, 0, 0.5); }

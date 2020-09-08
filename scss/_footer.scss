@@ -1,0 +1,121 @@
+
+@import "variable";
+
+.photograph__footer__informations {
+  margin-inline-start: $margine-inline-start;
+}
+
+.photograph__footer__title {
+  font-family: dmserifdisplay-regular;
+  font-weight: normal;
+  color: $black-color;
+  font-size: 24px;
+  line-height: 2rem;
+  text-transform: uppercase;
+
+}
+
+.photograph__footer__informations--paragraph {
+  color: $gray;
+  @include midiumfont
+}
+
+// List of all possible to connect to the ownwer
+
+.photograph__footer__lists--relation {
+  list-style: $list-style;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px;
+}
+
+.photograph__footer__list--relation {
+  
+}
+
+.photograph__footer--link {
+  text-decoration: $text-decoration;
+
+}
+
+// Home
+
+
+
+.photograph__footer__navigation__home--heading {
+  color: $black-color;
+  font-weight: 700;
+  @include midiumfont;
+}
+
+.photograph__footer__lists {
+  list-style: $list-style;
+  padding-inline-start: 0;
+  margin-block-start: $margine-block-start;
+}
+
+.photograph__footer__lists__of__link {
+  text-decoration: $text-decoration;
+  color: $gray;
+  @include midiumfont
+}
+
+// Person information
+
+.photograph__footer__informations__lists--person {
+  list-style: $list-style;
+  padding-inline-start: 0;
+}
+
+.photograph__footer__informations--paragraph {
+  @include midiumfont;
+  font-weight: normal;
+  
+}
+
+.photograph__footer__informations--date {
+  font-size: 12px;
+  line-height: 24px;
+  font-family: dmsans-bold;
+  color: $black-color;
+ 
+
+}
+
+.photograph__footer__informations__container--person {
+  margin-inline-start: 0;
+}
+
+.photograph__footer__informations__navigation--person {
+
+}
+.photograph__footer__informations__list--person {
+  margin-block-start: calc(#{$margine-block-start} * 2);
+}
+
+.photograph__footer__informations__list--person {
+  display: flex;
+  
+}
+
+.photograph__footer__informations--womimage, 
+.photograph__footer__informations--passimage {
+  border-radius: 8px;
+  max-width: 45%;
+  margin-inline-end: calc(#{$margine-inline-end} * 2);
+  
+ 
+ 
+}
+
+// Note part of the footer 
+
+.photograph__footer__informations__container--note {
+  border-top : 1px solid rgb(175, 174, 174);
+  @include midiumfont;
+  margin-inline-start: $margine-inline-start;
+  color: $gray;
+}
+ 
+

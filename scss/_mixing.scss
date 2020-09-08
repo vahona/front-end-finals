@@ -21,6 +21,13 @@
   font-family: dmserifdisplay-regular;
 }
 
+@mixin midiumfont {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular;
+  
+}
+
 @mixin smalfont {
   font-weight: 11px;
   font-size: 19px;

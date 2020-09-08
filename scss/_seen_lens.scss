@@ -9,10 +9,9 @@
 .photograph__main__link {
   text-decoration: $text-decoration;
   color: $gray;
-  font-family: sans-Regular;
+   @include midiumfont;
   font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5rem;
+ 
  
 }
 
@@ -59,9 +58,7 @@
 
 span {
   color: $gray;
-  font-family: sans-Regular;
-  font-size: 1rem;
-  line-height: 1.5rem; 
+   @include midiumfont
 }
 
 .photograph__main__seenlens__wordsdetails {
@@ -87,10 +84,8 @@ span {
 }
 
 .photograph__main__mineral--beautyinformation {
-  font-family: sans-Regular;
+  @include midiumfont;
   color: $gray;
-  font-size: 1rem;
-  line-height: 24px;
 }
 
 .photograph__main__mineral {
