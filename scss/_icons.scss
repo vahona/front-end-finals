@@ -1,37 +1,57 @@
+@import "variable";
+
 .photograph__main__mineral--lists {
-  display: flex;
-  margin-inline-start: $margine-inline-start;
-  padding-inline-start: 0;
- 
-  
+  padding-inline-start: $padding-inline-start;
 }
 
-.photograph__main__mineral--list {
-  @include list;
+  .photograph__main__mineral--lists {
+    list-style: $list-style;
+    display: flex;
+  }
 
-}
-
-.photograph__main__mineral--link {
-  text-decoration: none;
-  color: transparent;
-}
+  .photograph__main__mineral--link {
+    color: transparent;
+  }
 
 
  .facebook {
   background-image: url(../images/icone_facebook.svg);
   background-repeat: no-repeat;
+  width: 32px;
   
  }
 
 .twitter {
   background-image: url(../images/icone_twitter.svg);
   background-repeat: no-repeat;
+  width: 32px;
 }
 
 .histogram {
   background-image: url(../images/icone_histogram.svg);
   background-repeat: no-repeat;
+  width: 32px;
 }
+
+// Footer
+
+.photograph__footer--link {
+  text-decoration: $text-decoration;
+  color: transparent;
+}
+
+.photograph__footer__lists--relation {
+  list-style:  $list-style;
+  display: flex;
+  
+}
+
+.photograph__footer__lists--relation {
+  padding-inline-start: 0;
+}
+
+
+
 
 
 

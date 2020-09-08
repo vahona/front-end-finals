@@ -20,24 +20,6 @@
   @include midiumfont
 }
 
-// List of all possible to connect to the ownwer
-
-.photograph__footer__lists--relation {
-  list-style: $list-style;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  text-indent: -9999px;
-}
-
-.photograph__footer__list--relation {
-  
-}
-
-.photograph__footer--link {
-  text-decoration: $text-decoration;
-
-}
 
 // Home
 
