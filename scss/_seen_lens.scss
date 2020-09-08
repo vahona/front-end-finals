@@ -102,4 +102,19 @@ span {
     margin-inline-end: 135px;
   }
 
+
+  .photograph__main__seenlens--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .photograph__main__mineral--navigation {
+    grid-column: 2;
+  }
+
+  .photograph__main__seenlens__wordsdetails {
+    margin-block-start: 3rem;
+  }
+
 }

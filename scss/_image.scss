@@ -59,7 +59,7 @@
     }
 
     .ripple {
-    margin-inline-end: $margine-inline-end;
+    margin-inline-end: calc(#{$margine-inline-end} / 3);
   }
 
 }
