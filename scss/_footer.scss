@@ -84,7 +84,8 @@
 .photograph__footer__informations--womimage, 
 .photograph__footer__informations--passimage {
   border-radius: 8px;
-  max-width: 45%;
+  max-width: 30%;
+  max-height: 30%;
   margin-inline-end: calc(#{$margine-inline-end} * 2);
   
  
@@ -98,6 +99,41 @@
   @include midiumfont;
   margin-inline-start: $margine-inline-start;
   color: $gray;
+}
+
+
+@media (min-width: 1200px) {
+
+  .photograph__footer__informations {
+    display: flex;
+    margin-inline-start: 135px;
+    margin-inline-end: 135px;
+    justify-content: space-between;
+    margin-block-start: 78px;
+    margin-block-end: 110px;
+  }
+
+  .photograph__footer__informations__container--note {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 135px;
+    margin-inline-end: 135px;
+    margin-block-end: 75px;
+  }
+
+  .photograph__footer__informations__container--comminucation {
+    width: 270px;
+  }
+
+  .photograph__footer__informations__container--home {
+    width: 62px;
+  }
+
+  .photograph__footer__informations__container--person {
+    width: 370px;
+  }
+
+
 }
  
 
