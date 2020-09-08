@@ -1,6 +1,10 @@
 
 @import "variable";
 
+.photograph__main__seenlens {
+  padding-block-end: calc(#{$padding-block-end} * 3);
+}
+
 
 .photograph__main__link {
   text-decoration: $text-decoration;

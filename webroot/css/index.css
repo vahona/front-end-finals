@@ -104,6 +104,9 @@ input[value*="e.g.jesse@gmail.com"] {
   border-radius: 5px;
   margin-block-start: 1rem; }
 
+.photograph__main__seenlens {
+  padding-block-end: calc(1rem * 3); }
+
 .photograph__main__link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
