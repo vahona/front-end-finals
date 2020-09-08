@@ -98,6 +98,10 @@ span {
   line-height: 1.5rem;
   font-family: dmsans-bold; }
 
+.photograph__main__mineral--header {
+  color: #000000;
+  font-family: dmserifdisplay-regular; }
+
 .photograph__main__seenlens__images--big {
   max-width: 100%; }
 

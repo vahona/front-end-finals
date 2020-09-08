@@ -1,0 +1,37 @@
+.photograph__main__mineral--lists {
+  display: flex;
+  margin-inline-start: $margine-inline-start;
+  padding-inline-start: 0;
+ 
+  
+}
+
+.photograph__main__mineral--list {
+  @include list;
+
+}
+
+.photograph__main__mineral--link {
+  text-decoration: none;
+  color: transparent;
+}
+
+
+ .facebook {
+  background-image: url(../images/icone_facebook.svg);
+  background-repeat: no-repeat;
+  
+ }
+
+.twitter {
+  background-image: url(../images/icone_twitter.svg);
+  background-repeat: no-repeat;
+}
+
+.histogram {
+  background-image: url(../images/icone_histogram.svg);
+  background-repeat: no-repeat;
+}
+
+
+
