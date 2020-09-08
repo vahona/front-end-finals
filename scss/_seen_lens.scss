@@ -91,3 +91,15 @@ span {
 .photograph__main__mineral {
   margin-inline-start: $margine-inline-start;
 }
+
+
+// Mediaquerry for the desktop
+
+@media (min-width : 1200px) {
+
+  .photograph__main {
+    margin-inline-start: 135px;
+    margin-inline-end: 135px;
+  }
+
+}

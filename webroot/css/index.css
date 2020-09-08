@@ -37,8 +37,32 @@
   margin-inline-end: 1rem;
   margin-block-start: calc( 1rem + 0.5rem); }
 
-.photograph__navigation {
+.photograph__lists {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-Regular;
   display: none; }
+
+.photograph__list__of__link {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.photograph-checkbox {
+  display: none; }
+
+@media (min-width: 1200px) {
+  .photograph__title {
+    margin-inline-start: 135px; }
+  .photograph__navigation {
+    margin-inline-end: 135px; }
+  .photograph__list {
+    margin-inline-start: calc(1rem + 0.5rem); }
+  .photograph__lists {
+    display: block;
+    display: flex; }
+  .photograph__scroll__bar {
+    display: none; } }
 
 html {
   background-color: #F2F2F2; }
@@ -180,6 +204,11 @@ span {
 .photograph__main__mineral {
   margin-inline-start: 1rem; }
 
+@media (min-width: 1200px) {
+  .photograph__main {
+    margin-inline-start: 135px;
+    margin-inline-end: 135px; } }
+
 .photograph__main__seenlens__images--big {
   max-width: 100%;
   border-radius: 5px; }
@@ -201,6 +230,28 @@ span {
 .sunset,
 .canyon {
   display: none; }
+
+.stairs,
+.ripple {
+  opacity: 0.5; }
+
+@media (min-width: 1200px) {
+  .dune,
+  .arches,
+  .car,
+  .sunset,
+  .canyon {
+    display: block; }
+  .stairs,
+  .ripple,
+  .dune,
+  .arches,
+  .car,
+  .sunset,
+  .canyon {
+    opacity: 0.5; }
+  .ripple {
+    margin-inline-end: 1rem; } }
 
 .photograph__main__mineral--lists {
   padding-inline-start: 1rem; }

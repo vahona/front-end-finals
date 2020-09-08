@@ -21,9 +21,7 @@
 
 
 .ripple {
- 
   margin-inline-end: calc(137px / -2);
-
 }
 
 
@@ -34,4 +32,34 @@
 .sunset,
 .canyon {
   display: none;
+}
+
+ .stairs,
+ .ripple {
+   opacity: 0.5;
+ }
+
+
+@media (min-width : 1200px) {
+    .dune,
+    .arches,
+    .car,
+    .sunset,
+    .canyon {
+    display: block;
+  }
+    .stairs,
+    .ripple,
+    .dune,
+    .arches,
+    .car,
+    .sunset,
+    .canyon {
+      opacity: 0.5 ;
+    }
+
+    .ripple {
+    margin-inline-end: $margine-inline-end;
+  }
+
 }

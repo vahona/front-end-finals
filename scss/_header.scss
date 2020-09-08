@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   
+  
 }
 
 .photograph__title {
@@ -31,5 +32,63 @@
 }
 
 .photograph__navigation {
+  // display: none;
+}
+
+// links
+
+.photograph__lists {
+  list-style: $list-style;
+  @include midiumfont;
+  display: none
+}
+
+.photograph__list__of__link {
+  text-decoration: $text-decoration;
+  color: $white;
+}
+
+// .photograph__navigation {
+//   background-color: wheat;
+//   border-radius: 5px;
+// }
+
+.photograph-checkbox {
   display: none;
+}
+
+.photograph__scroll__bar {
+
+}
+
+
+// Mediaquerry for the desktop
+
+@media (min-width : 1200px) {
+
+  .photograph__title {
+    margin-inline-start: 135px;
+  }
+
+  .photograph__navigation {
+    margin-inline-end: 135px;
+  }
+
+  .photograph__list {
+    margin-inline-start: calc(#{$margine-inline-start} + 0.5rem);
+  }
+
+  .photograph__lists {
+    display: block;
+    display: flex;
+
+  }
+
+  .photograph__scroll__bar {
+    display: none;
+  }
+
+
+
+
 }
