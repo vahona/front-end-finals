@@ -59,7 +59,7 @@
     .car,
     .sunset,
     .canyon {
-    display: block;
+      display: block;
   }
     .stairs,
     .ripple,
@@ -72,13 +72,13 @@
     }
 
     .ripple {
-    margin-inline-end: calc(#{$margine-inline-end} / 3);
+      margin-inline-end: calc(#{$margine-inline-end} / 3);
   }
 
-  .photograph__main__seenlens--images_container {
-    margin-inline-start: $margine-inline-start;
-    margin-inline-end: 0;
-}
+    .photograph__main__seenlens--images_container {
+      margin-inline-start: $margine-inline-start;
+      margin-inline-end: 0;
+  }
 
 .photograph__main__seenlens--bigimage_container {
   margin-inline-start: $margine-inline-start;
