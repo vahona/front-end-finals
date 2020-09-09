@@ -250,8 +250,8 @@ span {
 
 @media (min-width: 1200px) {
   .photograph__main__seenlens {
-    margin-inline-start: calc((100% * 135px) / 1440px);
-    margin-inline-end: calc((100% * 135px) / 1440px); }
+    margin-inline-start: 8.43rem;
+    margin-inline-end: 8.43rem; }
   .photograph__main__seenlens--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -419,15 +419,15 @@ span {
 
 @media (min-width: 1200px) {
   .photograph__footer__informations {
-    margin-inline-start: calc((100% * 135px) / 1440px);
-    margin-inline-end: calc((100% * 135px) / 1440px);
+    margin-inline-start: 8.43rem;
+    margin-inline-end: 8.43rem;
     display: flex;
     justify-content: space-between;
     margin-block-start: 5rem;
     margin-block-end: 7rem; }
   .photograph__footer__informations__container--note {
-    margin-inline-start: calc((100% * 135px) / 1440px);
-    margin-inline-end: calc((100% * 135px) / 1440px);
+    margin-inline-start: 8.43rem;
+    margin-inline-end: 8.43rem;
     display: flex;
     justify-content: space-between;
     margin-block-end: 5rem; }

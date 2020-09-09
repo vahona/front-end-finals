@@ -1,5 +1,6 @@
 
 @import "variable";
+@import "mixing";
 
 .photograph__footer__informations {
   margin-inline-start: $margine-inline-start;
@@ -119,7 +120,7 @@
   }
 
   .photograph__footer__informations__container--comminucation {
-    width: 17rem;
+    width: 17rem
   }
 
   .photograph__footer__informations__container--home {
