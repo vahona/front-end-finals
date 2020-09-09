@@ -9,12 +9,11 @@
 }
 
 .photograph__main__updating--subheader {
-  font-family: sans-Regular;
+  @include midiumfont;
   text-transform: uppercase;
   color: $black-color;
   letter-spacing: 0.3em;
-  font-size: 1rem;
-  line-height: 1.5rem;
+ 
 
 }
 
@@ -24,10 +23,8 @@
 }
 
 .email-adress {
+  @include fontbold;
   text-transform: uppercase;
-  font-family: dmsans-bold;
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 input {

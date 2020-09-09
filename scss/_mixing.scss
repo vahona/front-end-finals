@@ -33,6 +33,13 @@
   line-height: 2rem;
 }
 
+@mixin fontbold {
+  font-family: dmsans-bold;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  
+}
+
 @mixin smalfont {
   font-weight: 0.68rem;
   font-size: 1.18rem;
