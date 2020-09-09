@@ -252,6 +252,15 @@ span {
   .photograph__main__seenlens {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem; }
+  .photograph__main__images--small {
+    width: 90%;
+    height: 100%; }
+  .photograph__main__seenlens__images--list {
+    width: 12%;
+    margin-inline-end: 0;
+    margin-inline-start: 0; }
+  .photograph__main__seenlens__images--lists {
+    width: 70%; }
   .photograph__main__seenlens--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
