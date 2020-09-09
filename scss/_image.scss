@@ -2,7 +2,7 @@
 
 .photograph__main__seenlens__images--big {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 0.31rem;
   
 
 }
@@ -15,9 +15,9 @@
 .photograph__main__images--small {
   max-width: 100%;
   border-radius: 0.31rem;
+  
 
 }
-
 
 
 .ripple {
@@ -32,6 +32,7 @@
 .sunset,
 .canyon {
   display: none;
+  opacity: 0.5;
 }
 
  .stairs,

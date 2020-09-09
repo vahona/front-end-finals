@@ -36,8 +36,9 @@
 // links
 
 .photograph__lists {
-  list-style: $list-style;
   @include midiumfont;
+  list-style: $list-style;
+  
 }
 
 .photograph__list__of__link {

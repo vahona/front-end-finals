@@ -34,12 +34,12 @@ input {
   padding-top: 0.81rem;
   padding-bottom: 0.68rem;
   padding-left: 1rem;
-  padding-right: 5.62rem;
+  padding-right: 3.62rem;
 }
 
 input[value*="e.g.jesse@gmail.com"] {
-  color: $gray;
   @include smalfont;
+  color: $gray;
   margin-top: $margine;
 }
 
@@ -48,13 +48,13 @@ input[value*="e.g.jesse@gmail.com"] {
 }
 
 .photograph__main__updating--button_form {
+  @include smalfont;
   background-color: $blue;
   padding-top: 0.81rem;
   padding-bottom: 0.68rem;
   padding-inline-start: 2.84rem;
   padding-inline-end: 2.84rem;
   color: $white;
-  @include smalfont;
   margin-block-start: $margine-block-start;
   
 

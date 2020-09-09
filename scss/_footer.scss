@@ -6,18 +6,18 @@
 }
 
 .photograph__footer__title {
+  @include fontquitbig;
   font-family: dmserifdisplay-regular;
   font-weight: normal;
   color: $black-color;
-  font-size: 1.5rem;
-  line-height: 2rem;
   text-transform: uppercase;
 
 }
 
 .photograph__footer__informations--paragraph {
+  @include midiumfont;
   color: $gray;
-  @include midiumfont
+  
 }
 
 
@@ -26,9 +26,10 @@
 
 
 .photograph__footer__navigation__home--heading {
+  @include midiumfont;
   color: $black-color;
   font-weight: 700;
-  @include midiumfont;
+  
 }
 
 .photograph__footer__lists {
@@ -38,9 +39,10 @@
 }
 
 .photograph__footer__lists__of__link {
+  @include midiumfont;
   text-decoration: $text-decoration;
   color: $gray;
-  @include midiumfont
+  
 }
 
 // Person information
@@ -92,8 +94,8 @@
 // Note part of the footer 
 
 .photograph__footer__informations__container--note {
-  border-top : 1px solid rgb(175, 174, 174);
   @include midiumfont;
+  border-top : 1px solid rgb(175, 174, 174);
   margin-inline-start: $margine-inline-start;
   color: $gray;
 }
@@ -102,19 +104,17 @@
 @media (min-width: 1200px) {
 
   .photograph__footer__informations {
+    @include margine;
     display: flex;
-    margin-inline-start: 8.43rem;
-    margin-inline-end: 8.43rem;
     justify-content: space-between;
     margin-block-start: 5rem;
     margin-block-end: 7rem;
   }
 
   .photograph__footer__informations__container--note {
+    @include margine;
     display: flex;
     justify-content: space-between;
-    margin-inline-start: 8.43rem;
-    margin-inline-end: 8.43rem;
     margin-block-end: 5rem;
   }
 
@@ -127,7 +127,7 @@
   }
 
   .photograph__footer__informations__container--person {
-    width: 370px;
+    width: 23.12rem;
   }
 
 

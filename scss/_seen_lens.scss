@@ -7,9 +7,9 @@
 
 
 .photograph__main__link {
+  @include midiumfont;
   text-decoration: $text-decoration;
   color: $gray;
-   @include midiumfont;
   font-weight: normal;
  
  
@@ -57,13 +57,12 @@
 
 
 span {
+  @include midiumfont;
   color: $gray;
-   @include midiumfont
+   
 }
 
-.photograph__main__seenlens__wordsdetails {
-  // font-family: ;
-}
+
 
 .photograph__main__seenlens__wordsdetails--paragraph {
   color: $black-color;
@@ -98,8 +97,7 @@ span {
 @media (min-width : 1200px) {
 
   .photograph__main__seenlens {
-    margin-inline-start: 8.43rem;
-    margin-inline-end: 8.43rem;
+    @include margine;
   }
 
 
