@@ -19,8 +19,8 @@
   text-transform: $text-transformation;
   font-weight: normal;
   font-style: normal;
-  line-height: 24px;
-  font-size: 32px;
+  line-height: 1.5rem;
+  font-size: 2rem;
   color:  $white;
 }
 
@@ -31,9 +31,7 @@
  
 }
 
-.photograph__navigation {
-  // display: none;
-}
+
 
 // links
 
@@ -75,11 +73,11 @@
 @media (min-width : 1200px) {
 
   .photograph__title {
-    margin-inline-start: 135px;
+    margin-inline-start: 8.43rem;
   }
 
   .photograph__navigation {
-    margin-inline-end: 135px;
+    margin-inline-end: 8.43rem;
   }
 
   .photograph__list {
