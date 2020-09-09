@@ -60,6 +60,15 @@
   columns: 2;
 }
 
+.camera {
+  margin-inline-end: calc(#{$margine-inline-end} * 4.5);
+}
+
+.photograph__main__seenlens__wordsdetails--lists {
+  padding-inline-start: 0;
+  margin-inline-start: $margine-inline-start;
+}
+
 
 span {
   @include midiumfont;
@@ -74,6 +83,8 @@ span {
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: dmsans-bold;
+  margin-block-start: 0;
+  margin-block-end: calc(#{$margine-block-end} * 2);
 }
 
 .photograph__main__mineral--header {
