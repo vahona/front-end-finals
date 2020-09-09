@@ -40,26 +40,35 @@
 .photograph__lists {
   list-style: $list-style;
   @include midiumfont;
-  display: none
+  // display: none
 }
 
 .photograph__list__of__link {
   text-decoration: $text-decoration;
   color: $white;
 }
-
-// .photograph__navigation {
-//   background-color: wheat;
-//   border-radius: 5px;
-// }
-
 .photograph-checkbox {
-  display: none;
+  position: absolute;
+  top: 2.5rem;
+  opacity: 0;
 }
 
-.photograph__scroll__bar {
-
+.photograph__navigation {
+  right: -9999px;
+  position: fixed;
+  background-color: rgb(4, 62, 70);
+  padding: $padding;
+  max-width: 8rem;
+  border: yellow 1px solid;
+  margin-block-start: calc(#{$margine-block-start} * 3);
 }
+
+#bar:checked + .photograph__navigation{
+  left: 0;
+  
+}
+
+
 
 
 // Mediaquerry for the desktop
