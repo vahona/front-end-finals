@@ -15,7 +15,7 @@
  
 }
 
-.photograph__main__seenlens--images {
+.photograph__main__seenlens__images--navigation {
   overflow: hidden;
 }
 
@@ -43,7 +43,12 @@
 .photograph__main__seenlens__images--lists {
   @include list;
   padding-inline-start: $padding;
+ 
   
+}
+
+.photograph__main__mineral--header {
+  margin-block-end: 0;
 }
 
 .photograph__main__seenlens__images--list {

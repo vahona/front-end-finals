@@ -183,7 +183,7 @@ input[value*="e.g.jesse@gmail.com"] {
   color: rgba(0, 0, 0, 0.5);
   font-weight: normal; }
 
-.photograph__main__seenlens--images {
+.photograph__main__seenlens__images--navigation {
   overflow: hidden; }
 
 .photograph__main__back {
@@ -206,6 +206,9 @@ input[value*="e.g.jesse@gmail.com"] {
   list-style: none;
   display: flex;
   padding-inline-start: 1rem; }
+
+.photograph__main__mineral--header {
+  margin-block-end: 0; }
 
 .photograph__main__seenlens__images--list {
   margin-inline-end: 0.25rem; }
@@ -264,27 +267,37 @@ span {
   max-width: 100%;
   border-radius: 0.31rem; }
 
-.photograph__main__seenlens--images_container {
+.photograph__main__seenlens--images {
+  overflow: hidden; }
+
+.photograph__main__seenlens--bigimage_container {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem; }
 
 .photograph__main__images--small {
-  max-width: 100%;
-  border-radius: 0.31rem; }
+  max-width: 400%;
+  border-radius: 0.31rem;
+  margin-inline-end: 2rem; }
 
-.ripple {
-  margin-inline-end: calc(137px / -2); }
+.photograph__main__seenlens--smalimages_container {
+  margin-block-start: 0; }
 
+.stairs,
+.ripple,
 .dune,
 .arches,
 .car,
 .sunset,
 .canyon {
-  display: none;
-  opacity: 0.5; }
+  margin-inline-start: 6rem; }
 
 .stairs,
-.ripple {
+.ripple,
+.dune,
+.arches,
+.car,
+.sunset,
+.canyon {
   opacity: 0.5; }
 
 @media (min-width: 1200px) {

@@ -7,37 +7,49 @@
 
 }
 
-.photograph__main__seenlens--images_container {
+.photograph__main__seenlens--images {
+  overflow: hidden;
+}
+
+.photograph__main__seenlens--bigimage_container {
   margin-inline-start: $margine-inline-start;
   margin-inline-end: $margine-inline-end;
 }
 
 .photograph__main__images--small {
-  max-width: 100%;
+  max-width: 400%;
   border-radius: 0.31rem;
+  margin-inline-end: 2rem;
   
 
 }
 
-
-.ripple {
-  margin-inline-end: calc(137px / -2);
+.photograph__main__seenlens--smalimages_container {
+  margin-block-start: 0;
+ 
+  
 }
 
 
-
+.stairs,
+.ripple,
 .dune,
 .arches,
 .car,
 .sunset,
 .canyon {
-  display: none;
-  opacity: 0.5;
+  margin-inline-start: 6rem;
 }
 
- .stairs,
- .ripple {
-   opacity: 0.5;
+
+.stairs,
+.ripple,
+.dune,
+.arches,
+.car,
+.sunset,
+.canyon {
+  opacity: 0.5;
  }
 
 
