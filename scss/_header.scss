@@ -24,7 +24,7 @@
   color:  $white;
 }
 
-.photograph__scroll__bar {
+.photograph__bar {
   float: right;
   margin-inline-end: $margine-inline-end;
   margin-block-start: calc( #{$margine-block-start} + 0.5rem);
@@ -40,7 +40,6 @@
 .photograph__lists {
   list-style: $list-style;
   @include midiumfont;
-  // display: none
 }
 
 .photograph__list__of__link {
@@ -87,13 +86,24 @@
     margin-inline-start: calc(#{$margine-inline-start} + 0.5rem);
   }
 
+  .photograph__navigation {
+    right: 0;
+    background-color: transparent;
+    border: transparent;
+    top: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-block-start: $margine-block-start;
+    position: relative;
+
+  }
+
   .photograph__lists {
-    display: block;
     display: flex;
 
   }
 
-  .photograph__scroll__bar {
+  .photograph__bar {
     display: none;
   }
 

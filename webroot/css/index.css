@@ -32,7 +32,7 @@
   font-size: 32px;
   color: #FFFFFF; }
 
-.photograph__scroll__bar {
+.photograph__bar {
   float: right;
   margin-inline-end: 1rem;
   margin-block-start: calc( 1rem + 0.5rem); }
@@ -71,10 +71,18 @@
     margin-inline-end: 135px; }
   .photograph__list {
     margin-inline-start: calc(1rem + 0.5rem); }
+  .photograph__navigation {
+    right: 0;
+    background-color: transparent;
+    border: transparent;
+    top: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-block-start: 1rem;
+    position: relative; }
   .photograph__lists {
-    display: block;
     display: flex; }
-  .photograph__scroll__bar {
+  .photograph__bar {
     display: none; } }
 
 html {
