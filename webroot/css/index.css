@@ -252,15 +252,6 @@ span {
   .photograph__main__seenlens {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem; }
-  .photograph__main__images--small {
-    width: 90%;
-    height: 100%; }
-  .photograph__main__seenlens__images--list {
-    width: 12%;
-    margin-inline-end: 0;
-    margin-inline-start: 0; }
-  .photograph__main__seenlens__images--lists {
-    width: 70%; }
   .photograph__main__seenlens--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -312,7 +303,19 @@ span {
   .canyon {
     opacity: 0.5; }
   .ripple {
-    margin-inline-end: calc(1rem / 3); } }
+    margin-inline-end: calc(1rem / 3); }
+  .photograph__main__seenlens--images_container {
+    margin-inline-start: 1rem;
+    margin-inline-end: 0; }
+  .photograph__main__images--small {
+    max-width: 100%;
+    max-height: 100%; }
+  .photograph__main__seenlens__images--navigation {
+    margin-block-start: 0; }
+  .photograph__main__seenlens__images--list {
+    margin-inline-start: 0; }
+  .photograph__main__seenlens__images--lists {
+    width: 100%; } }
 
 .photograph__main__mineral--lists {
   padding-inline-start: 1rem; }
