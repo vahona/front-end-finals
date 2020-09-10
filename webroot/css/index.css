@@ -143,10 +143,10 @@ body {
   text-transform: uppercase; }
 
 input {
-  padding-top: 0.81rem;
-  padding-bottom: 0.68rem;
+  padding-top: calc(1rem * 0.81);
+  padding-bottom: calc(1rem * 0.61);
   padding-left: 1rem;
-  padding-right: 7rem; }
+  padding-right: calc(1rem * 7); }
 
 input[value*="e.g.jesse@gmail.com"] {
   font-weight: 0.68rem;
@@ -167,10 +167,10 @@ input[value*="e.g.jesse@gmail.com"] {
   font-weight: normal;
   border-radius: 0.31rem;
   background-color: #434CCC;
-  padding-top: 0.81rem;
-  padding-bottom: 0.68rem;
-  padding-inline-start: 2.84rem;
-  padding-inline-end: 2.84rem;
+  padding-top: calc(1rem * 0.81);
+  padding-bottom: calc(1rem * 0.68);
+  padding-inline-start: calc(1rem * 2.84);
+  padding-inline-end: calc(1rem * 2.84);
   color: #FFFFFF;
   margin-block-start: 1rem; }
 
@@ -181,16 +181,16 @@ input[value*="e.g.jesse@gmail.com"] {
   .photograph__main__updating--header {
     width: 24rem; }
   .photograph__main__updating--form {
-    margin-inline-start: -17.5rem;
+    margin-inline-start: calc(1rem * -17.5);
     width: 50.31rem;
-    padding-block-start: 10rem;
-    padding-block-end: 9rem; }
+    padding-block-start: calc(1rem * 10);
+    padding-block-end: calc(1rem * 9); }
   input[value*="e.g.jesse@gmail.com"] {
     margin-top: 1rem; }
   .photograph__main__updating--button_form {
     margin-inline-start: calc(1rem * 2); }
   .photograph__main__updating--container {
-    margin-inline-start: 8.43rem; }
+    margin-inline-start: calc(1rem * 8.43); }
   .photograph__main__updating--form {
     display: flex; }
   .photograph__main__updating--button_form {

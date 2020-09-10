@@ -29,10 +29,10 @@
 }
 
 input {
-  padding-top: 0.81rem;
-  padding-bottom: 0.68rem;
-  padding-left: 1rem;
-  padding-right: 7rem;
+  padding-top: calc(#{$padding-top} * 0.81);
+  padding-bottom: calc(#{$padding-bottom} * 0.61);
+  padding-left: $padding-left;
+  padding-right: calc(#{$padding-right} * 7);
 
 }
 
@@ -51,10 +51,10 @@ input[value*="e.g.jesse@gmail.com"] {
 .photograph__main__updating--button_form {
   @include smalfont;
   background-color: $blue;
-  padding-top: 0.81rem;
-  padding-bottom: 0.68rem;
-  padding-inline-start: 2.84rem;
-  padding-inline-end: 2.84rem;
+  padding-top: calc(#{$padding-top} * 0.81);
+  padding-bottom: calc(#{$padding-bottom} * 0.68);
+  padding-inline-start: calc(#{$padding-inline-start} * 2.84);
+  padding-inline-end: calc(#{$padding-inline-end} * 2.84);;
   color: $white;
   margin-block-start: $margine-block-start;
 
@@ -75,10 +75,10 @@ input[value*="e.g.jesse@gmail.com"] {
   }
 
   .photograph__main__updating--form {
-    margin-inline-start: -17.5rem;
+    margin-inline-start: calc(#{$margine-inline-start} * -17.5);
     width: 50.31rem;
-    padding-block-start: 10rem;
-    padding-block-end: 9rem;
+    padding-block-start: calc(#{$padding-inline-start} * 10);
+    padding-block-end: calc(#{$padding-inline-start} * 9);
   
   }
 
@@ -94,7 +94,7 @@ input[value*="e.g.jesse@gmail.com"] {
   }
 
   .photograph__main__updating--container {
-    margin-inline-start: 8.43rem;
+    margin-inline-start: calc(#{$margine-inline-start} * 8.43);
   
   }
 
