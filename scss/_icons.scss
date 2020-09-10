@@ -9,40 +9,55 @@
     display: flex;
   }
 
-  .photograph__main__mineral--link {
-    color: transparent;
-  }
+ .photograph__main__mineral--list {
+    text-indent: -9999px;
+    width: 2rem;
+ }
 
 
- .facebook {
+ .facebook,.facebook__footer {
   background-image: url(../images/icone_facebook.svg);
   background-repeat: no-repeat;
-  width: 2rem;
+  
+  
+  
   
  }
 
-.twitter {
+.twitter, .twitter__footer {
   background-image: url(../images/icone_twitter.svg);
   background-repeat: no-repeat;
-  width: 2rem;
+ 
+ 
 }
 
-.histogram {
+.histogram, .histogram__footer {
   background-image: url(../images/icone_histogram.svg);
   background-repeat: no-repeat;
-  width: 2rem;
+  
+  
 }
 
 // Footer
 
+.histogram__footer,
+.twitter__footer,
+.facebook__footer {
+  width: 2rem;
+}
+
+
 .photograph__footer--link {
   text-decoration: $text-decoration;
   color: transparent;
+ 
 }
+
 
 .photograph__footer__lists--relation {
   list-style:  $list-style;
   display: flex;
+  
   
 }
 

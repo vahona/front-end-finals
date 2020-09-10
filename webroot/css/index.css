@@ -196,6 +196,10 @@ input[value*="e.g.jesse@gmail.com"] {
   .photograph__main__updating--button_form {
     margin-block-start: calc(1rem * 2); } }
 
+.photograph__main__container {
+  background: rgba(67, 76, 204, 0.05);
+  padding-block-start: 1rem; }
+
 .photograph__main__seenlens {
   padding-block-end: calc(1rem * 3); }
 
@@ -373,22 +377,25 @@ span {
   list-style: none;
   display: flex; }
 
-.photograph__main__mineral--link {
-  color: transparent; }
+.photograph__main__mineral--list {
+  text-indent: -9999px;
+  width: 2rem; }
 
-.facebook {
+.facebook, .facebook__footer {
   background-image: url(../images/icone_facebook.svg);
-  background-repeat: no-repeat;
-  width: 2rem; }
+  background-repeat: no-repeat; }
 
-.twitter {
+.twitter, .twitter__footer {
   background-image: url(../images/icone_twitter.svg);
-  background-repeat: no-repeat;
-  width: 2rem; }
+  background-repeat: no-repeat; }
 
-.histogram {
+.histogram, .histogram__footer {
   background-image: url(../images/icone_histogram.svg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; }
+
+.histogram__footer,
+.twitter__footer,
+.facebook__footer {
   width: 2rem; }
 
 .photograph__footer--link {

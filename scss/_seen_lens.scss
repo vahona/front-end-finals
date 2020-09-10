@@ -1,6 +1,12 @@
 
 @import "variable";
 
+.photograph__main__container {
+  background: rgba(67, 76, 204, 0.05);
+  padding-block-start: $padding-block-start;
+ 
+}
+
 .photograph__main__seenlens {
   padding-block-end: calc(#{$padding-block-end} * 3);
 }
