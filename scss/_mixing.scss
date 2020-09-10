@@ -3,9 +3,8 @@
 @mixin list {
   list-style: none;
   display: flex;
-  
-}
 
+}
 
 @mixin font {
   font-weight: 2.2rem;
@@ -13,25 +12,27 @@
   color: $black-color;
   font-weight: normal;
   font-family: dmserifdisplay-regular;
+
 }
 
 @mixin midiumfont {
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: sans-Regular;
-  
+
 }
 
 @mixin fontquitbig {
   font-size: 1.5rem;
   line-height: 2rem;
+
 }
 
 @mixin fontbold {
   font-family: dmsans-bold;
   font-size: 0.75rem;
   line-height: 1rem;
-  
+
 }
 
 @mixin smalfont {
@@ -40,10 +41,11 @@
   font-family: sans-Regular;
   font-weight: normal;
   border-radius: 0.31rem;
+
 }
 
 @mixin margine {
   margin-inline-start: 8.43rem;
   margin-inline-end: 8.43rem
-  
+
 }

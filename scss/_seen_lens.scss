@@ -12,7 +12,6 @@
 
 }
 
-
 .photograph__main__link {
   @include midiumfont;
   text-decoration: $text-decoration;
@@ -41,7 +40,6 @@
   margin-inline-start: $margine-inline-start;
 
 }
-
 
 .photograph__main__seenlens--paragraph {
   font-family:sans-Regular ;
@@ -82,14 +80,11 @@
 
 }
 
-
 span {
   @include midiumfont;
   color: $gray;
 
 }
-
-
 
 .photograph__main__seenlens__wordsdetails--paragraph {
   color: $black-color;
@@ -134,7 +129,6 @@ span {
     @include margine;
   
   }
-
 
   .photograph__main__seenlens--container {
     display: grid;
