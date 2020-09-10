@@ -79,17 +79,17 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
 
 @media (min-width: 1200px) {
   .photograph__title {
-    margin-inline-start: 8.43rem; }
+    margin-inline-start: calc(1rem + 8.43rem); }
   .photograph__list {
     margin: 0; }
+  input[type=checkbox]:checked + .photograph__navigation,
+  input[type=checkbox]:not(:checked) + .photograph__navigation {
+    transition: none;
+    transform: none; }
   #bar {
     display: none; }
   .photograph__navigation {
-    margin-inline-end: 8.43rem;
-    transition: none;
-    right: 0; }
-  .photograph__list {
-    margin-inline-start: calc(1rem + 0.5rem); }
+    margin-inline-end: 2rem; }
   .photograph__navigation {
     right: 0;
     background-color: transparent;
@@ -99,6 +99,8 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
     max-width: 100%;
     margin-block-start: 1rem;
     position: relative; }
+  .photograph__list {
+    margin-inline-start: calc(1rem + 0.5rem); }
   .photograph__lists {
     display: flex; }
   .photograph__bar {
@@ -399,6 +401,10 @@ span {
 
 .photograph__footer__lists--relation {
   padding-inline-start: 0; }
+
+.photograph__footer {
+  background-color: #FFFFFF;
+  padding-block-start: 1rem; }
 
 .photograph__footer__informations {
   margin-inline-start: 1rem; }

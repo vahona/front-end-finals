@@ -100,11 +100,17 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
 @media (min-width : 1200px) {
 
   .photograph__title {
-    margin-inline-start: 8.43rem;
+    margin-inline-start: calc(#{$margine} + 8.43rem);
   }
 
   .photograph__list {
     margin: 0;
+  }
+
+  input[type=checkbox]:checked + .photograph__navigation,
+  input[type=checkbox]:not(:checked) + .photograph__navigation {
+    transition: none;
+    transform: none;
   }
 
   #bar {
@@ -112,13 +118,8 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   }
 
   .photograph__navigation {
-    margin-inline-end: 8.43rem;
-    transition: none;
-    right: 0;
-  }
-
-  .photograph__list {
-    margin-inline-start: calc(#{$margine-inline-start} + 0.5rem);
+    margin-inline-end: 2rem
+    
   }
 
   .photograph__navigation {
@@ -131,6 +132,10 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
     margin-block-start: $margine-block-start;
     position: relative;
 
+  }
+
+  .photograph__list {
+    margin-inline-start: calc(#{$margine-inline-start} + 0.5rem);
   }
 
   .photograph__lists {

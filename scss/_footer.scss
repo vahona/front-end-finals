@@ -2,6 +2,11 @@
 @import "variable";
 @import "mixing";
 
+.photograph__footer {
+  background-color: $white;
+  padding-block-start: $padding-block-start;
+}
+
 .photograph__footer__informations {
   margin-inline-start: $margine-inline-start;
 }
