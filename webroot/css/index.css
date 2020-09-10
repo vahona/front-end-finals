@@ -109,6 +109,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
 html {
   background-color: #F2F2F2;
   max-width: 1440px;
+  max-height: 2724px;
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
@@ -505,8 +506,7 @@ span {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem;
     display: flex;
-    justify-content: space-between;
-    margin-block-end: calc(1rem * 5); }
+    justify-content: space-between; }
   .photograph__footer__informations__container--comminucation {
     width: 17rem; }
   .photograph__footer__informations__container--home {
