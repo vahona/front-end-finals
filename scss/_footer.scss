@@ -5,6 +5,7 @@
 .photograph__footer {
   background-color: $white;
   padding-block-start: $padding-block-start;
+  padding-block-end: calc(#{$padding-block-end} * 2);
 }
 
 .photograph__footer__informations {

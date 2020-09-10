@@ -411,7 +411,8 @@ span {
 
 .photograph__footer {
   background-color: #FFFFFF;
-  padding-block-start: 1rem; }
+  padding-block-start: 1rem;
+  padding-block-end: calc(1rem * 2); }
 
 .photograph__footer__informations {
   margin-inline-start: 1rem; }
