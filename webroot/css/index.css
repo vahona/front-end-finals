@@ -86,7 +86,10 @@
     display: none; } }
 
 html {
-  background-color: #F2F2F2; }
+  background-color: #F2F2F2;
+  max-width: 1440px;
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
 
 body {
   padding: 0;
