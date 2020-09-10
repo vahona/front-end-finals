@@ -302,7 +302,7 @@ span {
 
 .photograph__main__seenlens__images--big {
   max-width: 100%;
-  border-radius: 0.31rem; }
+  border-radius: 0.5rem; }
 
 .photograph__main__seenlens--images {
   overflow: hidden; }
@@ -313,7 +313,7 @@ span {
 
 .photograph__main__images--small {
   max-width: 400%;
-  border-radius: 0.31rem;
+  border-radius: 0.5rem;
   margin-inline-end: 2rem; }
 
 .photograph__main__seenlens--smalimages_container {

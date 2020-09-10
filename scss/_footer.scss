@@ -84,7 +84,7 @@
 
 .photograph__footer__informations--womimage, 
 .photograph__footer__informations--passimage {
-  border-radius: 0.5rem;
+  border-radius: $border-radius;
   max-width: 30%;
   max-height: 30%;
   margin-inline-end: calc(#{$margine-inline-end} * 2);

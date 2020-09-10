@@ -2,7 +2,7 @@
 
 .photograph__main__seenlens__images--big {
   max-width: 100%;
-  border-radius: 0.31rem;
+  border-radius: $border-radius;
 
 }
 
@@ -19,7 +19,7 @@
 
 .photograph__main__images--small {
   max-width: 400%;
-  border-radius: 0.31rem;
+  border-radius: $border-radius;
   margin-inline-end: 2rem;
 
 }
