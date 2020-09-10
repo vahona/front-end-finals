@@ -37,12 +37,13 @@
 .photograph__lists {
   @include midiumfont;
   list-style: $list-style;
-  
+
 }
 
 .photograph__list__of__link {
   text-decoration: $text-decoration;
   color: $white;
+
 }
 
 // Hiding the checkbox
@@ -51,6 +52,7 @@
   position: absolute;
   top: 2.5rem;
   opacity: 0;
+
 }
 
 // Style of the navigation list and hiding by default
@@ -64,15 +66,16 @@
   border: yellow 3px solid;
   margin-block-start: calc(#{$margine-block-start} * 3);
 
- 
 }
 
 .photograph__lists {
   padding-inline-start: $padding-inline-start;
+
 }
 
 .photograph__list {
   margin: $margine;
+
 }
 
 // Showing the navigation when the checkbox is checked
@@ -81,6 +84,7 @@ input[type=checkbox]:checked + .photograph__navigation {
   transform: translateX(100%);
   transition: all 0.5s ease;
   left: -100px;
+
 }
 
 // Hiding the navigation when the checkbox is unchecked. 
@@ -89,6 +93,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   transform: translateX(-100%);
   transition: all 0.5s ease-out;
   left: -100px;
+
 }
 
 
@@ -99,25 +104,29 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
 
   .photograph__title {
     margin-inline-start: calc(#{$margine} + 8.43rem);
+  
   }
 
   .photograph__list {
     margin: 0;
+  
   }
 
   input[type=checkbox]:checked + .photograph__navigation,
   input[type=checkbox]:not(:checked) + .photograph__navigation {
     transition: none;
     transform: none;
+  
   }
 
   #bar {
     display: none;
+  
   }
 
   .photograph__navigation {
     margin-inline-end: 2rem
-    
+  
   }
 
   .photograph__navigation {
@@ -134,18 +143,17 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
 
   .photograph__list {
     margin-inline-start: calc(#{$margine-inline-start} + 0.5rem);
+  
   }
 
   .photograph__lists {
     display: flex;
-
+  
   }
 
   .photograph__bar {
     display: none;
+  
   }
-
-
-
 
 }

@@ -2,40 +2,38 @@
 
 .photograph__main__mineral--lists {
   padding-inline-start: $padding-inline-start;
+
 }
 
-  .photograph__main__mineral--lists {
-    list-style: $list-style;
-    display: flex;
-  }
+.photograph__main__mineral--lists {
+  list-style: $list-style;
+  display: flex;
 
- .photograph__main__mineral--list {
-    text-indent: -9999px;
-    width: 2rem;
- }
+}
+
+.photograph__main__mineral--list {
+  text-indent: -9999px;
+  width: 2rem;
+
+}
 
 
- .facebook,.facebook__footer {
+.facebook,.facebook__footer {
   background-image: url(../images/icone_facebook.svg);
   background-repeat: no-repeat;
-  
-  
-  
-  
- }
+
+}
 
 .twitter, .twitter__footer {
   background-image: url(../images/icone_twitter.svg);
   background-repeat: no-repeat;
- 
- 
+
 }
 
 .histogram, .histogram__footer {
   background-image: url(../images/icone_histogram.svg);
   background-repeat: no-repeat;
-  
-  
+
 }
 
 // Footer
@@ -44,6 +42,7 @@
 .twitter__footer,
 .facebook__footer {
   width: 2rem;
+
 }
 
 

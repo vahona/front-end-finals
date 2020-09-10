@@ -24,13 +24,11 @@
 .photograph__footer__informations--paragraph {
   @include midiumfont;
   color: $gray;
-  
+
 }
 
 
 // Home
-
-
 
 .photograph__footer__navigation__home--heading {
   @include midiumfont;
@@ -62,13 +60,12 @@
 .photograph__footer__informations--paragraph {
   @include midiumfont;
   font-weight: normal;
-  
+
 }
 
 .photograph__footer__informations--date {
   @include fontbold;
   color: $black-color;
- 
 
 }
 
@@ -82,7 +79,7 @@
 
 .photograph__footer__informations__list--person {
   display: flex;
-  
+
 }
 
 .photograph__footer__informations--womimage, 
@@ -91,9 +88,7 @@
   max-width: 30%;
   max-height: 30%;
   margin-inline-end: calc(#{$margine-inline-end} * 2);
-  
- 
- 
+
 }
 
 // Note part of the footer 
@@ -108,6 +103,7 @@
   margin-inline-start: $margine-inline-start;
   color: $gray;
   margin-block-start: $margine-block-start;
+
 }
 
 

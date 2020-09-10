@@ -6,6 +6,7 @@
   background-color: $yelow;
   padding-block-end: calc(#{$padding-block-end} * 2);
   padding-block-start: calc(#{$padding-block-start} * 2);
+
 }
 
 .photograph__main__updating--subheader {
@@ -13,18 +14,18 @@
   text-transform: uppercase;
   color: $black-color;
   letter-spacing: 0.3em;
- 
 
 }
 
 .photograph__main__updating--header {
   @include font;
-  
+
 }
 
 .email-adress {
   @include fontbold;
   text-transform: uppercase;
+
 }
 
 input {
@@ -32,16 +33,19 @@ input {
   padding-bottom: 0.68rem;
   padding-left: 1rem;
   padding-right: 7rem;
+
 }
 
 input[value*="e.g.jesse@gmail.com"] {
   @include smalfont;
   color: $gray;
   margin-top: $margine;
+
 }
 
 .photograph__main__updating--latest {
   margin-inline-start: $margine-inline-start;
+
 }
 
 .photograph__main__updating--button_form {
@@ -53,7 +57,6 @@ input[value*="e.g.jesse@gmail.com"] {
   padding-inline-end: 2.84rem;
   color: $white;
   margin-block-start: $margine-block-start;
-  
 
 }
 
@@ -67,7 +70,8 @@ input[value*="e.g.jesse@gmail.com"] {
   }
 
   .photograph__main__updating--header {
-    width: 24rem
+    width: 24rem;
+  
   }
 
   .photograph__main__updating--form {
@@ -75,29 +79,32 @@ input[value*="e.g.jesse@gmail.com"] {
     width: 50.31rem;
     padding-block-start: 10rem;
     padding-block-end: 9rem;
+  
   }
 
   
   input[value*="e.g.jesse@gmail.com"] {
     margin-top: $margine;
+  
   }
 
   .photograph__main__updating--button_form {
     margin-inline-start: calc(#{$margine-inline-start} * 2);
+  
   }
 
   .photograph__main__updating--container {
     margin-inline-start: 8.43rem;
-    
-
+  
   }
 
   .photograph__main__updating--form {
     display: flex;
-   
+  
   }
 
   .photograph__main__updating--button_form {
     margin-block-start: calc(#{$margine-block-start} * 2);
+  
   }
 }

@@ -3,31 +3,30 @@
 .photograph__main__seenlens__images--big {
   max-width: 100%;
   border-radius: 0.31rem;
-  
 
 }
 
 .photograph__main__seenlens--images {
   overflow: hidden;
+
 }
 
 .photograph__main__seenlens--bigimage_container {
   margin-inline-start: $margine-inline-start;
   margin-inline-end: $margine-inline-end;
+
 }
 
 .photograph__main__images--small {
   max-width: 400%;
   border-radius: 0.31rem;
   margin-inline-end: 2rem;
-  
 
 }
 
 .photograph__main__seenlens--smalimages_container {
   margin-block-start: 0;
- 
-  
+
 }
 
 
@@ -39,6 +38,7 @@
 .sunset,
 .canyon {
   margin-inline-start: 6rem;
+
 }
 
 
@@ -50,57 +50,67 @@
 .sunset,
 .canyon {
   opacity: 0.5;
- }
+
+}
 
 
 @media (min-width : 1200px) {
-    .dune,
-    .arches,
-    .car,
-    .sunset,
-    .canyon {
-      display: block;
-  }
-    .stairs,
-    .ripple,
-    .dune,
-    .arches,
-    .car,
-    .sunset,
-    .canyon {
-      opacity: 0.5 ;
-    }
-
-    .ripple {
-      margin-inline-end: calc(#{$margine-inline-end} / 3);
+  .dune,
+  .arches,
+  .car,
+  .sunset,
+  .canyon {
+    display: block;
+  
   }
 
-    .photograph__main__seenlens--images_container {
-      margin-inline-start: $margine-inline-start;
-      margin-inline-end: 0;
+  .stairs,
+  .ripple,
+  .dune,
+  .arches,
+  .car,
+  .sunset,
+  .canyon {
+    opacity: 0.5 ;
+  
   }
 
-.photograph__main__seenlens--bigimage_container {
-  margin-inline-start: $margine-inline-start;
-  margin-inline-end: 0;
-}
+  .ripple {
+    margin-inline-end: calc(#{$margine-inline-end} / 3);
+  
+  }
+
+  .photograph__main__seenlens--images_container {
+    margin-inline-start: $margine-inline-start;
+    margin-inline-end: 0;
+  
+  }
+
+  .photograph__main__seenlens--bigimage_container {
+    margin-inline-start: $margine-inline-start;
+    margin-inline-end: 0;
+  
+  }
 
   .photograph__main__images--small {
     max-width: 98%;
     max-height: 100%;
-   
-    
+  
   }
+
   .photograph__main__seenlens__images--navigation {
     margin-block-start: 0;
+  
   }
 
   .photograph__main__seenlens__images--list {
     margin-inline-start: 0;
+  
   }
 
   .photograph__main__seenlens__images--lists {
     width: 100%;
+  
   }
 
 }

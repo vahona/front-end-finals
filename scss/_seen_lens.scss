@@ -4,11 +4,12 @@
 .photograph__main__container {
   background: rgba(67, 76, 204, 0.05);
   padding-block-start: $padding-block-start;
- 
+
 }
 
 .photograph__main__seenlens {
   padding-block-end: calc(#{$padding-block-end} * 3);
+
 }
 
 
@@ -17,17 +18,18 @@
   text-decoration: $text-decoration;
   color: $gray;
   font-weight: normal;
- 
- 
+
 }
 
 .photograph__main__seenlens__images--navigation {
   overflow: hidden;
+
 }
 
 .photograph__main__back {
-    margin-block-start: calc(#{$margine-block-start} * 2 );
-    margin-inline-start: $margine-inline-start ;
+  margin-block-start: calc(#{$margine-block-start} * 2 );
+  margin-inline-start: $margine-inline-start ;
+
 }
 
 .photograph__main__seenlens--title {
@@ -37,49 +39,54 @@
   line-height: 4rem;
   font-weight: normal;
   margin-inline-start: $margine-inline-start;
-  
+
 }
 
 
 .photograph__main__seenlens--paragraph {
   font-family:sans-Regular ;
   margin-inline-start: $margine-inline-start;
+
 }
 
 .photograph__main__seenlens__images--lists {
   @include list;
   padding-inline-start: $padding;
- 
-  
+
 }
 
 .photograph__main__mineral--header {
   margin-block-end: 0;
+
 }
 
 .photograph__main__seenlens__images--list {
   margin-inline-end: 0.25rem;
+
 }
 
 .photograph__main__seenlens__wordsdetails--lists {
   list-style-type: none;
   columns: 2;
+
 }
 
 .camera {
   margin-inline-end: calc(#{$margine-inline-end} * 4.5);
+
 }
 
 .photograph__main__seenlens__wordsdetails--lists {
   padding-inline-start: 0;
   margin-inline-start: $margine-inline-start;
+
 }
 
 
 span {
   @include midiumfont;
   color: $gray;
-   
+
 }
 
 
@@ -91,26 +98,31 @@ span {
   font-family: dmsans-bold;
   margin-block-start: 0;
   margin-block-end: calc(#{$margine-block-end} * 2);
+
 }
 
 .photograph__main__mineral--header {
   @include font;
+
 }
 
 .photograph__main__mineral--placeinformation {
-   color: $black-color;
-   font-size: 1.125rem;
-   line-height: 2rem;
-   font-family: sans-Regular;
+  color: $black-color;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-family: sans-Regular;
+
 }
 
 .photograph__main__mineral--beautyinformation {
   @include midiumfont;
   color: $gray;
+
 }
 
 .photograph__main__mineral {
   margin-inline-start: $margine-inline-start;
+
 }
 
 
@@ -120,21 +132,24 @@ span {
 
   .photograph__main__seenlens {
     @include margine;
+  
   }
 
 
   .photograph__main__seenlens--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+  
   }
 
   .photograph__main__mineral--navigation {
     grid-column: 2;
+  
   }
 
   .photograph__main__seenlens__wordsdetails {
     margin-block-start: calc(#{$margine-block-start} * 3);
+  
   }
 
 }
