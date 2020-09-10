@@ -59,6 +59,7 @@ input[value*="e.g.jesse@gmail.com"] {
   padding-inline-end: calc(#{$padding-inline-end} * 2.84);;
   color: $white;
   margin-block-start: $margine-block-start;
+  border: $blue solid 1px;
 
 }
 

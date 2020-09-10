@@ -175,7 +175,8 @@ input[value*="e.g.jesse@gmail.com"] {
   padding-inline-start: calc(1rem * 2.84);
   padding-inline-end: calc(1rem * 2.84);
   color: #FFFFFF;
-  margin-block-start: 1rem; }
+  margin-block-start: 1rem;
+  border: #434CCC solid 1px; }
 
 @media (min-width: 1200px) {
   .photograph__main__updating {
