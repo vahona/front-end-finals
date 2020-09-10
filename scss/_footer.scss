@@ -100,13 +100,14 @@
 
 .photograph__footer__informations__container {
   border-top : 1px solid rgb(175, 174, 174);
-   
+
 }
 
 .photograph__footer__informations__container--note {
   @include midiumfont;
   margin-inline-start: $margine-inline-start;
   color: $gray;
+  margin-block-start: $margine-block-start;
 }
 
 
