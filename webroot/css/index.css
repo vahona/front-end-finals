@@ -147,7 +147,8 @@ input {
   padding-top: calc(1rem * 0.81);
   padding-bottom: calc(1rem * 0.61);
   padding-left: 1rem;
-  padding-right: calc(1rem * 7); }
+  padding-right: calc(1rem * 7);
+  border: rgba(175, 175, 175, 0.4) 1px solid; }
 
 input[value*="e.g.jesse@gmail.com"] {
   font-weight: 0.68rem;
@@ -167,6 +168,7 @@ input[value*="e.g.jesse@gmail.com"] {
   font-family: sans-Regular;
   font-weight: normal;
   border-radius: 0.31rem;
+  border-radius: 0.5rem;
   background-color: #434CCC;
   padding-top: calc(1rem * 0.81);
   padding-bottom: calc(1rem * 0.68);

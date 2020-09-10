@@ -33,6 +33,7 @@ input {
   padding-bottom: calc(#{$padding-bottom} * 0.61);
   padding-left: $padding-left;
   padding-right: calc(#{$padding-right} * 7);
+  border: rgba(175, 175, 175, 0.4) 1px solid;
 
 }
 
@@ -50,6 +51,7 @@ input[value*="e.g.jesse@gmail.com"] {
 
 .photograph__main__updating--button_form {
   @include smalfont;
+  border-radius: $border-radius;
   background-color: $blue;
   padding-top: calc(#{$padding-top} * 0.81);
   padding-bottom: calc(#{$padding-bottom} * 0.68);
@@ -59,6 +61,7 @@ input[value*="e.g.jesse@gmail.com"] {
   margin-block-start: $margine-block-start;
 
 }
+
 
 
 @media (min-width: 1200px) {
