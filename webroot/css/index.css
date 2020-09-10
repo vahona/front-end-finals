@@ -484,7 +484,7 @@ span {
   margin-inline-end: calc(1rem * 2); }
 
 .photograph__footer__informations__container {
-  border-top: 1px solid #afaeae; }
+  border-top: 1px solid rgba(10, 10, 10, 0.1); }
 
 .photograph__footer__informations__container--note {
   font-size: 1rem;
