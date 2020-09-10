@@ -31,15 +31,6 @@
  
 }
 
-// Try another methode
-
-// #bar {
-//   opacity: 0;
-//   width: 0;
-//   height: 0;
-//   appearance: none;
-//   position: fixed;
-// }
 
 
 // links
@@ -54,25 +45,51 @@
   text-decoration: $text-decoration;
   color: $white;
 }
+
+// Hiding the checkbox
+
 .photograph-checkbox {
   position: absolute;
   top: 2.5rem;
   opacity: 0;
 }
 
+// Style of the navigation list and hiding by default
+
 .photograph__navigation {
-  right: -9999px;
+  left: -200px;
   position: fixed;
   background-color: rgb(4, 62, 70);
   padding: $padding;
   max-width: 8rem;
-  border: yellow 1px solid;
+  border: yellow 3px solid;
   margin-block-start: calc(#{$margine-block-start} * 3);
+
+ 
 }
 
-#bar:checked + .photograph__navigation{
-  left: 0;
-  
+.photograph__lists {
+  padding-inline-start: $padding-inline-start;
+}
+
+.photograph__list {
+  margin: $margine;
+}
+
+// Showing the navigation when the checkbox is checked
+
+input[type=checkbox]:checked + .photograph__navigation {
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+  left: -100px;
+}
+
+// Hiding the navigation when the checkbox is unchecked. 
+
+input[type=checkbox]:not(:checked) + .photograph__navigation {
+  transform: translateX(-100%);
+  transition: all 0.5s ease-out;
+  left: -100px;
 }
 
 
@@ -86,8 +103,18 @@
     margin-inline-start: 8.43rem;
   }
 
+  .photograph__list {
+    margin: 0;
+  }
+
+  #bar {
+    display: none;
+  }
+
   .photograph__navigation {
     margin-inline-end: 8.43rem;
+    transition: none;
+    right: 0;
   }
 
   .photograph__list {
