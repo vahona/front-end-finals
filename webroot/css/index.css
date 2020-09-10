@@ -314,7 +314,7 @@ span {
 .photograph__main__images--small {
   max-width: 400%;
   border-radius: 0.5rem;
-  margin-inline-end: 2rem; }
+  margin-inline-end: calc(1rem * 2); }
 
 .photograph__main__seenlens--smalimages_container {
   margin-block-start: 0; }
@@ -326,7 +326,7 @@ span {
 .car,
 .sunset,
 .canyon {
-  margin-inline-start: 6rem; }
+  margin-inline-start: calc(1rem * 6); }
 
 .stairs,
 .ripple,

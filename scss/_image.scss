@@ -20,7 +20,7 @@
 .photograph__main__images--small {
   max-width: 400%;
   border-radius: $border-radius;
-  margin-inline-end: 2rem;
+  margin-inline-end: calc(#{$margine-inline-end} * 2);
 
 }
 
@@ -37,7 +37,7 @@
 .car,
 .sunset,
 .canyon {
-  margin-inline-start: 6rem;
+  margin-inline-start: calc(#{$margine-inline-start} * 6);
 
 }
 
