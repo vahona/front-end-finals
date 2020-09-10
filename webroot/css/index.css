@@ -89,7 +89,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   #check {
     display: none; }
   .photograph__navigation {
-    margin-inline-end: 2rem; }
+    margin-inline-end: calc(1rem * 2); }
   .photograph__navigation {
     right: 0;
     background-color: transparent;

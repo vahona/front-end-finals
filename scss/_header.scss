@@ -125,7 +125,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   }
 
   .photograph__navigation {
-    margin-inline-end: 2rem
+    margin-inline-end: calc(#{$margine-inline-end} * 2)
   
   }
 
