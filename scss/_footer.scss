@@ -113,15 +113,15 @@
     @include margine;
     display: flex;
     justify-content: space-between;
-    margin-block-start: 5rem;
-    margin-block-end: 7rem;
+    margin-block-start: calc(#{$margine-block-start} * 5);
+    margin-block-end: calc(#{$margine-block-end} * 6);
   }
 
   .photograph__footer__informations__container--note {
     @include margine;
     display: flex;
     justify-content: space-between;
-    margin-block-end: 5rem;
+    margin-block-end: calc(#{$margine-block-end} * 5);
   }
 
   .photograph__footer__informations__container--comminucation {

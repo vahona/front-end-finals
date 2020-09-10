@@ -499,14 +499,14 @@ span {
     margin-inline-end: 8.43rem;
     display: flex;
     justify-content: space-between;
-    margin-block-start: 5rem;
-    margin-block-end: 7rem; }
+    margin-block-start: calc(1rem * 5);
+    margin-block-end: calc(1rem * 6); }
   .photograph__footer__informations__container--note {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem;
     display: flex;
     justify-content: space-between;
-    margin-block-end: 5rem; }
+    margin-block-end: calc(1rem * 5); }
   .photograph__footer__informations__container--comminucation {
     width: 17rem; }
   .photograph__footer__informations__container--home {
