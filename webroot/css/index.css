@@ -86,7 +86,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   input[type=checkbox]:not(:checked) + .photograph__navigation {
     transition: none;
     transform: none; }
-  #bar {
+  #check {
     display: none; }
   .photograph__navigation {
     margin-inline-end: 2rem; }
