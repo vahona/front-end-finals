@@ -482,11 +482,13 @@ span {
   max-height: 30%;
   margin-inline-end: calc(1rem * 2); }
 
+.photograph__footer__informations__container {
+  border-top: 1px solid #afaeae; }
+
 .photograph__footer__informations__container--note {
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: sans-Regular;
-  border-top: 1px solid #afaeae;
   margin-inline-start: 1rem;
   color: rgba(0, 0, 0, 0.5); }
 
