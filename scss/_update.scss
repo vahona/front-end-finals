@@ -37,6 +37,7 @@ input {
 
 }
 
+
 input[value*="e.g.jesse@gmail.com"] {
   @include smalfont;
   color: $gray;
@@ -65,7 +66,10 @@ input[value*="e.g.jesse@gmail.com"] {
 
 
 
-@media (min-width: 1200px) {
+
+
+
+@media (min-width: 1110px) {
 
   .photograph__main__updating {
     columns: 2;

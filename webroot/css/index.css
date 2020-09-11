@@ -77,7 +77,7 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   transition: all 0.5s ease-out;
   left: -100px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   .photograph__title {
     margin-inline-start: calc(1rem + 8.43rem); }
   .photograph__list {
@@ -178,7 +178,7 @@ input[value*="e.g.jesse@gmail.com"] {
   margin-block-start: 1rem;
   border: #434CCC solid 1px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   .photograph__main__updating {
     columns: 2;
     column-width: auto; }
@@ -292,7 +292,7 @@ span {
 .photograph__main__mineral {
   margin-inline-start: 1rem; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   .photograph__main__seenlens {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem; }
@@ -342,7 +342,7 @@ span {
 .canyon {
   opacity: 0.5; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   .dune,
   .arches,
   .car,
@@ -498,7 +498,7 @@ span {
   color: rgba(0, 0, 0, 0.5);
   margin-block-start: 1rem; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   .photograph__footer__informations {
     margin-inline-start: 8.43rem;
     margin-inline-end: 8.43rem;
