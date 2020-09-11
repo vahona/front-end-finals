@@ -152,7 +152,7 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #a977db; }
+  border-color: #b792dd; }
 
 input[value*="e.g.jesse@gmail.com"] {
   font-weight: 0.68rem;
