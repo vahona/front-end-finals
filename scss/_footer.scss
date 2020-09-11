@@ -6,10 +6,12 @@
   background-color: $white;
   padding-block-start: $padding-block-start;
   padding-block-end: calc(#{$padding-block-end} * 2);
+
 }
 
 .photograph__footer__informations {
   margin-inline-start: $margine-inline-start;
+
 }
 
 .photograph__footer__title {
@@ -33,20 +35,21 @@
   @include midiumfont;
   color: $black-color;
   font-weight: 700;
-  
+
 }
 
 .photograph__footer__lists {
   list-style: $list-style;
   padding-inline-start: 0;
   margin-block-start: $margine-block-start;
+
 }
 
 .photograph__footer__lists__of__link {
   @include midiumfont;
   text-decoration: $text-decoration;
   color: $gray;
-  
+
 }
 
 // Person information
@@ -54,6 +57,7 @@
 .photograph__footer__informations__lists--person {
   list-style: $list-style;
   padding-inline-start: 0;
+
 }
 
 .photograph__footer__informations--paragraph {
@@ -70,10 +74,12 @@
 
 .photograph__footer__informations__container--person {
   margin-inline-start: 0;
+
 }
 
 .photograph__footer__informations__list--person {
   margin-block-start: calc(#{$margine-block-start} * 2);
+
 }
 
 .photograph__footer__informations__list--person {
@@ -115,26 +121,29 @@
     justify-content: space-between;
     margin-block-start: calc(#{$margine-block-start} * 5);
     margin-block-end: calc(#{$margine-block-end} * 6);
-  
+
   }
 
   .photograph__footer__informations__container--note {
     @include margine;
     display: flex;
     justify-content: space-between;
-  
+
   }
 
   .photograph__footer__informations__container--comminucation {
     width: 17rem
+  
   }
 
   .photograph__footer__informations__container--home {
     width: 4rem;
+  
   }
 
   .photograph__footer__informations__container--person {
     width: 23.12rem;
+  
   }
 
 
