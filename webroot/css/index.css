@@ -107,15 +107,15 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
     display: none; } }
 
 html {
-  background-color: #F2F2F2;
+  background-color: #F2F2F2; }
+
+body {
+  padding: 0;
+  margin: 0;
   max-width: 1440px;
   max-height: 2724px;
   margin-inline-start: auto;
   margin-inline-end: auto; }
-
-body {
-  padding: 0;
-  margin: 0; }
 
 .photograph__main__updating {
   background-color: #FFDD78;
