@@ -37,6 +37,12 @@ input {
 
 }
 
+input:focus {
+  outline: none;
+  border-color: rgb(169, 119, 219);
+
+}
+
 
 input[value*="e.g.jesse@gmail.com"] {
   @include smalfont;

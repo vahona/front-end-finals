@@ -150,6 +150,10 @@ input {
   padding-right: calc(1rem * 7);
   border: rgba(175, 175, 175, 0.4) 1px solid; }
 
+input:focus {
+  outline: none;
+  border-color: #a977db; }
+
 input[value*="e.g.jesse@gmail.com"] {
   font-weight: 0.68rem;
   font-size: 1.18rem;
