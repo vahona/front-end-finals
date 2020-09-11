@@ -336,7 +336,6 @@ span {
 .canyon {
   margin-inline-start: calc(1rem * 6); }
 
-.rock__carving,
 .stairs,
 .ripple,
 .dune,
@@ -345,6 +344,9 @@ span {
 .sunset,
 .canyon {
   opacity: 0.5; }
+
+.rock__carving {
+  opacity: 1; }
 
 @media (min-width: 1110px) {
   .dune,
