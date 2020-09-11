@@ -13,6 +13,19 @@ function changeimg (url, e) {
 
   }
 
+  // var images = document.getElementsByClassName('.photograph__main__images--small');
+  // for(var i = 0; i < images.length; i++) {
+  //   if(element.id != images[i].id) {
+  //     images[i].style.opacity = 1;
+  //   }
+
+  //   else {
+      
+  //     images[i].style.opacity = 0.5;
+     
+  //   }
+  // }
+
 
 
 }
