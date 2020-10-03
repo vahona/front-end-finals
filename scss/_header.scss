@@ -6,6 +6,7 @@
   padding-bottom: $padding-bottom;
   display: flex;
   justify-content: space-between;
+ 
 
 }
 
@@ -95,6 +96,10 @@ input[type=checkbox]:not(:checked) + .photograph__navigation {
   left: -100px;
 
 }
+
+// header {
+//   display: none;
+// }
 
 
 // Media querry for the desktop
