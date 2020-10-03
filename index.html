@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photograph</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header class="photograph">
+    <h1 class="photograph__title">
+      Photograph
+    </h1>
+    <div class="photograph__container">
+      <label for="check">
+        <svg class="photograph__bar" width="20" height="14" viewBox="0 0 20 14" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V2H0V0ZM0 6H20V8H0V6ZM20 12H0V14H20V12Z"
+            fill="white" />
+        </svg>
+      </label>
+      <input type="checkbox" id="check" class="photograph-checkbox">
+      <nav class="photograph__navigation">
+        <ul class="photograph__lists">
+          <li class="photograph__list">
+            <a class="photograph__list__of__link link__about" href="/about">
+              About
+            </a>
+          </li>
+          <li class="photograph__list">
+            <a class="photograph__list__of__link link__portfolio" href="/portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li class="photograph__list">
+            <a class="photograph__list__of__link link__blog" href="/blog">
+              Blog
+            </a>
+          </li>
+          <li class="photograph__list">
+            <a class="photograph__list__of__link link__contact" href="/contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="photograph__main">
+    <div class="photograph__main__container">
+      <section class="photograph__main__seenlens">
+        <header class="photograph__main__seenlens--header">
+          <div class="photograph__main__back">
+            <a href="/backto" class="photograph__main__link">
+              ← Back to portfolio
+            </a>
+          </div>
+          <h2 class="photograph__main__seenlens--title">
+            Beauty is seen through a lens
+          </h2>
+          <p class="photograph__main__seenlens--paragraph">
+            Perspective matters.
+          </p>
+          <p class="photograph__main__seenlens--paragraph">
+            All my photographs try to capture that perspective, however subtle.
+          </p>
+        </header>
+        <article class="photograph__main__seenlens--images">
+          <div class="photograph__main__seenlens--bigimage_container">
+            <img id="big__img" class="photograph__main__seenlens__images--big" src="./images/rock_carvings_lg.jpg"
+              alt="large">
+          </div>
+          <div class="photograph__main__seenlens--smalimages_container">
+            <nav class="photograph__main__seenlens__images--navigation">
+              <ul id="image__list" class="photograph__main__seenlens__images--lists">
+                <li class="photograph__main__seenlens__images--list rock__carving" id="rock">
+                  <img class="photograph__main__images--small shown" src="./images/rock_carvings_sm.jpg" alt="canyon"
+                    onclick="changeimg('./images/rock_carvings_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list stairs" id="stairs">
+                  <img class="photograph__main__images--small image__stairs" src="./images/stairs_sm.jpg" alt="stairs"
+                    onclick="changeimg('./images/stairs_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list ripple" id="riple">
+                  <img class="photograph__main__images--small image__ripple" src="./images/ripples_sm.jpg" alt="riple"
+                    onclick="changeimg('./images/ripples_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list dune" id="dune">
+                  <img class="photograph__main__images--small image__dune" src="./images/dunes_sm.jpg" alt="dune"
+                    onclick="changeimg('./images/dunes_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list arches" id="arch">
+                  <img class="photograph__main__images--small image__arches" src="./images/arches_sm.jpg" alt="arch"
+                    onclick="changeimg('./images/arches_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list car" id="car">
+                  <img class="photograph__main__images--small image__car" src="./images/car_sm.jpg" alt="car"
+                    onclick="changeimg('./images/car_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list sunset" id="sunset">
+                  <img class="photograph__main__images--small image__sunset" src="./images/sunset_sm.jpg" alt="sunset"
+                    onclick="changeimg('./images/sunset_lg.jpg', this);">
+                </li>
+                <li class="photograph__main__seenlens__images--list canyon" id="canyon">
+                  <img class="photograph__main__images--small image__canyon" src="./images/canyon_sm.jpg" alt="canyon"
+                    onclick="changeimg('./images/canyon_lg.jpg', this);">
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </article>
+        <section class="photograph__main__seenlens--container">
+          <article class="photograph__main__seenlens__wordsdetails">
+            <nav class="photograph__main__seenlens__wordsdetails--navigation">
+              <ul class="photograph__main__seenlens__wordsdetails--lists">
+                <li class="photograph__main__seenlens__wordsdetails--list">
+                  <span>
+                    Date
+                  </span>
+                  <p class="photograph__main__seenlens__wordsdetails--paragraph">
+                    July 2009
+                  </p>
+                </li>
+                <li class="photograph__main__seenlens__wordsdetails--list camera">
+                  <span>
+                    Camera
+                  </span>
+                  <p class="photograph__main__seenlens__wordsdetails--paragraph">
+                    Canon EOS 1D Mark IV
+                  </p>
+                </li>
+                <li class="photograph__main__seenlens__wordsdetails--list">
+                  <span>
+                    Location
+                  </span>
+                  <p class="photograph__main__seenlens__wordsdetails--paragraph">
+                    Morrocan Highlands
+                  </p>
+                </li>
+                <li class="photograph__main__seenlens__wordsdetails--list">
+                  <span>
+                    Lens
+                  </span>
+                  <p class="photograph__main__seenlens__wordsdetails--paragraph">
+                    70mm f2.8 @ 1/16”
+                  </p>
+                </li>
+              </ul>
+            </nav>
+          </article>
+          <article class="photograph__main__mineral">
+            <h4 class="photograph__main__mineral--header">
+              Mineral carvings
+            </h4>
+            <p class="photograph__main__mineral--placeinformation">
+              Deep in the deserts of Morroco, lies a dried-up valley, featuring some of the most exquisite rock
+              formations, carved millions of years ago.
+            </p>
+            <p class="photograph__main__mineral--beautyinformation">
+              To truly experience these beautiful formations, one has to visit them in person. I hope my photos have
+              managed to capture the sheer size – gravitas even – and spellbinding nature of these eroded walls.
+            </p>
+          </article>
+          <nav class="photograph__main__mineral--navigation">
+            <ul class="photograph__main__mineral--lists lists_of_links">
+              <li class="photograph__main__mineral--list facebook">
+                <a class="photograph__main__mineral--link" href="#facebook">
+                  Facebook
+                </a>
+              </li>
+              <li class="photograph__main__mineral--list twitter">
+                <a class="photograph__main__mineral--link" href="#twitter">
+                  Twitter
+                </a>
+              </li>
+              <li class="photograph__main__mineral--list histogram">
+                <a class="photograph__main__mineral--link" href="#histogram">
+                  Histogram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </section>
+    </div>
+    <section class="photograph__main__updating">
+      <section class="photograph__main__updating--container">
+        <article class="photograph__main__updating--latest">
+          <h5 class="photograph__main__updating--subheader">
+            Latest
+          </h5>
+          <h4 class="photograph__main__updating--header">
+            Stay up-to-date with my updates
+          </h4>
+          <form action="submit" class="photograph__main__updating--form">
+            <div class="photograph__main__updating--container">
+              <label for="subscribe" class="email-adress">
+                Your Email adress
+              </label><br>
+              <input type="email" value="e.g.jesse@gmail.com" id="subscribe" required><br>
+            </div>
+            <button class="photograph__main__updating--button_form">
+              Subscribe
+            </button>
+          </form>
+        </article>
+      </section>
+    </section>
+    <footer class="photograph__footer">
+      <article class="photograph__footer__informations">
+        <div class="photograph__footer__informations__container--comminucation">
+          <h3 class="photograph__footer__title">
+            Photograph
+          </h3>
+          <p class="photograph__footer__informations--paragraph">
+            The personal website of Jesse McJessesen, professionalphotographer.
+          </p>
+          <nav class="photograph__footer__navigation__comminucation">
+            <ul class="photograph__footer__lists--relation">
+              <li class="photograph__footer__list--relation facebook__footer">
+                <a class="photograph__footer--link" href="#facebook">
+                  Facebook
+                </a>
+              </li>
+              <li class="photograph__footer__list--relation twitter__footer">
+                <a class="photograph__footer--link" href="#twitter">
+                  Twitter
+                </a>
+              </li>
+              <li class="photograph__footer__list--relation histogram__footer">
+                <a class="photograph__footer--link" href="#histogram">
+                  Histogram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="photograph__footer__informations__container--home">
+          <nav class="photograph__footer__navigation__home">
+            <h5 class="photograph__footer__navigation__home--heading">
+              Home
+            </h5>
+            <ul class="photograph__footer__lists">
+              <li class="photograph__footer__lists">
+                <a class="photograph__footer__lists__of__link footer__link__about" href="/about">
+                  About
+                </a>
+              </li>
+              <li class="photograph__footer__lists">
+                <a class="photograph__footer__lists__of__link footer__link__portfolio" href="/portfolio">
+                  Portfolio
+                </a>
+              </li>
+              <li class="photograph__footer__lists">
+                <a class="photograph__footer__lists__of__link footer__link__blog" href="/blog">
+                  Blog
+                </a>
+              </li>
+              <li class="photograph__footer__lists">
+                <a class="photograph__footer__lists__of__link footer__link__contact" href="/contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="photograph__footer__informations__container--person">
+          <nav class="photograph__footer__informations__navigation--person">
+            <ul class="photograph__footer__informations__lists--person">
+              <li class="photograph__footer__informations__list--person">
+                <img class="photograph__footer__informations--womimage" src="./images/woman_sm.jpg" alt="woman">
+                <p>
+                  <span class="photograph__footer__informations--paragraph">
+                    Rust, pumpkin, tans, and spices.
+                  </span><br>
+                  <span class="photograph__footer__informations--date">
+                    July 15, 2019
+                  </span>
+                </p>
+              </li>
+              <li class="photograph__footer__informations__list--person">
+                <img class="photograph__footer__informations--passimage" src="./images/passage_sm.jpg" alt="passage">
+                <p>
+                  <span class="photograph__footer__informations--paragraph">
+                    Experiencing Japan
+                  </span><br>
+                  <span class="photograph__footer__informations--date">
+                    July 10, 2019
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+      <article class="photograph__footer__informations__container">
+        <div class="photograph__footer__informations__container--note">
+          <p>
+            Created by Laaqiq, modified by Onja
+          </p>
+          <p>
+            © PHOTOGRAF, 2020. All rights reserved.
+          </p>
+        </div>
+      </article>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
