@@ -3,6 +3,8 @@
 .photograph__main__seenlens__images--big {
   max-width: 100%;
   border-radius: $border-radius;
+  margin-inline-start: $margine-inline-start;
+  margin-inline-end: 0;
 
 }
 
@@ -91,11 +93,11 @@
   
   }
 
-  .photograph__main__seenlens--bigimage_container {
-    margin-inline-start: $margine-inline-start;
-    margin-inline-end: 0;
+  // .photograph__main__seenlens--bigimage_container {
+  //   margin-inline-start: $margine-inline-start;
+  //   margin-inline-end: 0;
   
-  }
+  // }
 
   .photograph__main__images--small {
     max-width: 98%;

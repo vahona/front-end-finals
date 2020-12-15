@@ -310,7 +310,9 @@ span {
 
 .photograph__main__seenlens__images--big {
   max-width: 100%;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  margin-inline-start: 1rem;
+  margin-inline-end: 0; }
 
 .photograph__main__seenlens--images {
   overflow: hidden; }
@@ -366,9 +368,6 @@ span {
   .ripple {
     margin-inline-end: calc(1rem / 3); }
   .photograph__main__seenlens--images_container {
-    margin-inline-start: 1rem;
-    margin-inline-end: 0; }
-  .photograph__main__seenlens--bigimage_container {
     margin-inline-start: 1rem;
     margin-inline-end: 0; }
   .photograph__main__images--small {
