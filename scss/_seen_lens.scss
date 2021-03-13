@@ -6,13 +6,7 @@
   padding-block-start: $padding-block-start;
 
 }
-// .photograph__main__seenlens__wordsdetails {
-//   display: none;
-// }
 
-// .photograph__main__seenlens--container {
-//   display: none;
-// }
 
 .photograph__main__seenlens {
   padding-block-end: calc(#{$padding-block-end} * 3);
@@ -142,7 +136,7 @@ span {
   .photograph__main__seenlens--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // display: none;
+   
   
   }
 

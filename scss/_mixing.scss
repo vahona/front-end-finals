@@ -49,3 +49,8 @@
   margin-inline-end: 8.43rem
 
 }
+
+@mixin marginInline {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem
+}
